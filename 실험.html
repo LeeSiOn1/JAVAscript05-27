@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    function q1() {
+      $.ajax({
+        url: "연습101.html", // Replace with the actual URL of the OpenAPI
+        method: "GET",
+        dataType: "html",
+        success: function(data) {
+          // Clear the existing list
+          $('#names-q1').empty();
+
+          // Assuming `data` contains the HTML content
+          // This part should be customized based on the actual data format
+          // Parse the response and append new list items
+          // Example using dummy data
+          const districts = [
+            { name: "중구", value: 82 },
+            { name: "종로구", value: 87 },
+            { name: "용산구", value: 84 },
+            { name: "은평구", value: 82 }
+          ];
+
+          districts.forEach(district => {
+            $('#names-q1').append(`<li>${district.name} : ${district.value}</li>`);
+          });
+        },
+        error: function(error) {
+          console.log('Error fetching data', error);
+        }
+      });
+    }
+  </script>
+</head>
+<body>
+  <h1>jQuery+Ajax의 조합을 연습하자!</h1>
+  <hr />
+  <div class="question-box">
+    <h2>1. 서울시 OpenAPI(실시간 미세먼지 상태)를 이용하기</h2>
+    <p>모든 구의 미세먼지를 표기해주세요</p>
+    <p>업데이트 버튼을 누를 때마다 지웠다 새로 씌여져야 합니다.</p>
+    <button onclick="q1()">업데이트</button>
+    <ul id="names-q1">
+      <li>중구 : 82</li>
+      <li>종로구 : 87</li>
+      <li>용산구 : 84</li>
+      <li>은평구 : 82</li>
+    </ul>
+  </div>
+</body>
+</html>

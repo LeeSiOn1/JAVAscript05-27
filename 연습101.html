@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src ="js/jquery.js"></script>
+  <script>
+    function q1() {
+        $('#names-q1').empty();
+        $.ajax({
+            type: "GET",
+            url: "http://spartacodingclub.shop/sparta_api/seoulbike",
+            data: {},
+            success: function (response) {
+                let rows = response['getStationList']['row']         //변수 rows(행)를 선언과 동시에 리스폰(응답)*[코드조각-['getStationList']:배열과 유사한 개체를 포함]*,*['row'-:row에서 검색된 개체 내 속성을 추가로 엑세스]*   결론 : 변수 rows는 개체 배열과 행을 선언
+                for (let i = 0; i < rows.length; i++) {              //변수 i를 0으로 초기값을 잡고 i가 row라는 변수길이보다 작을 시 i는 증가
+                    let name = rows[i]['stationName'];               //스테이션에 대한 변수 이름 선언(거치대 위치)
+                    let num_lot = rows[i]['rackTotCnt'];             //스테이션에 대한 변수 이름 선언(거치대 수)
+                    let num_parked = rows[i]['parkingBikeTotCnt'];   //스테이션에 대한 변수 이름 선언(현재 거치대 따릉이 수)
+
+                    let temp_html = ``                               //변수 teml_himl 선언 후 빈 문자열``(백틱)을 삽입할 수 있음  
+
+                    if (num_parked < 4) {                            //if ()문을 사용해 현재 자전거 거치대 수가 4보다 작은지 확인
+                        temp_html = `<tr>                            
+        <td>${name}</td>
+        <td>${num_lot}</td>
+        <td class="low">${num_parked}</td>
+    </tr>`                                                           //temp_ html -(`)백틱을 사용한 템플릿 리터럴 : 표현식/문자열 삽입, 여러 줄 문자열, 문자열 형식화, 문자열 태깅등 다양한 기능을 제공
+                    } else {
+                        temp_html = `<tr>
+        <td>${name}</td>                                   
+        <td>${num_lot}</td>
+        <td>${num_parked}</td>
+    </tr>`                                                     
+    
+                    }                                                //`temp_html`에는 이전에 생성된 HTML 문자열이 포함되어 있음 그리고 이전 단계에서 자전거 스테이션 정보를 나타내는 `<tr>` 태그와 그 안에 `<td>` 태그가 포함된 문자열
+                    $('#names-q1').append(temp_html)                 //선택한 요소에 `temp_html`에 저장된 문자열을 추가하는 것을 의미
+                }
+            }
+
+        })
+    }
+</script>
+</head>
+<style type="text/css">
+  div.question-box {
+    margin: 10px 0 20px 0;
+  }
+
+  table {
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+
+  td,
+  th {
+    padding: 10px;
+    border: 1px solid;
+  }
+
+  .low {
+    color: red;
+    font-weight: bold;
+  }
+</style>
+<h1>jQuery + Ajax의 조합을 연습하자!</h1>
+
+    <hr />
+
+    <div class="question-box">
+      <h2>2. 서울시 OpenAPI(실시간 따릉기 현황)를 이용하기</h2>
+      <p>모든 위치의 따릉이 현황을 보여주세요</p>
+      <p>업데이트 버튼을 누를 때마다 지웠다 새로 씌여져야 합니다.</p>
+      <button onclick="q1()">업데이트</button>
+      <table>
+        <thead>
+          <tr>
+            <td>거치대 위치</td>
+            <td>거치대 수</td>
+            <td>현재 거치된 따릉이 수</td>
+          </tr>
+        </thead>
+        <tbody id="names-q1"></tbody>
+      </table>
+    </div>
+  </body>
+</html>
