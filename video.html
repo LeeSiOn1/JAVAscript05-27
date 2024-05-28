@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Control</title>
+  <script src="/js/jquery.js"></script>
+  <script>
+    $(function() {
+      const video = $("#videoElement")[0];
+
+      $(".btn1").on("click", function() {
+        video.play();
+      });
+
+      $(".btn2").on("click", function() {
+        video.pause();
+      });
+
+      $(".btn3").on("click", function() {
+        video.currentTime = 0;
+        video.play();
+      });
+
+      $(".btn4").on("click", function() {
+        video.pause();
+        video.currentTime = 0;
+      });
+    });
+  </script>
+  <style>
+    @media only screen and (max-width: 600px) and (min-width: 300px) {
+    }
+  </style>
+</head>
+<body>
+  <h1>자바스크립트로 비디오 제어</h1>
+  <hr>
+  <p>음소거 해제</p>
+  <video id="videoElement" controls width="600">
+    <source src="/media/bear.mp4" type="video/mp4">
+  </video>
+  <p>음소거해제</p>
+
+  <button class="btn1">Play</button>
+  <button class="btn2">Pause</button>
+  <button class="btn3">Replay</button>
+  <button class="btn4">Stop</button>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src ="/js/jquery-1.10.2.min.js"></script>
+  <script>
+    $(function(){
+      $("#btn1").on('click', function(){
+        $(".pink1").removeClass("pink1")
+      });
+    });
+  </script>
+  <style>
+    .pink1 {
+      background-color: pink;
+    }
+    p {
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+  <div class ="pink1">
+  <h1>제목1</h1>
+</div>
+  <p>단락 1</p>
+  <div class ="pink1">
+  <h1>제목2</h1>
+</div>
+  <p>단락 2</p>
+  <button id ="btn1">pink class삭제하기</button>
+</body>
+</html>
