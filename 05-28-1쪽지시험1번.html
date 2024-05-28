@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src ="js/jquery.js"></script>
+  <script src="js/js/jquery.flexslider.js"></script>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+  <script>
+    $(function(){
+      $('#Btn1').on('click', function(){
+        $('div').css({'background-color':'green'})   //1번코딩
+      });
+        
+    });
+  
+    $(function() {
+      $('tr:even').css('background-color', 'orange');  //2번코딩
+    });
+    
+    $(function(){
+      $("#imgBtn").on('click', function(){
+        $("#img").css("box-shadow", "15px 15px 10px  #777777"); //3번코딩
+      });
+    });
+
+    $(function(){
+      $('tr:first').css('background-color', 'black').css('color', 'white') //4번코딩
+    });
+
+    $(function(){
+      $(document).ready(function(){
+        $(".flexslider").flexslider({
+          pager: true,
+          auto: true
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+  <div>
+  <button id="Btn1">배경 바꾸기</button>         <!--1번-->
+</div>
+</body>
+<body>
+  <table border="1" width="50%">
+    <tr><td>이름</td><td>주소</td></tr>
+    <tr><td>홍길동</td><td>서울시</td></tr>
+    <tr><td>이순신</td><td>제주시</td></tr>
+    <tr><td>왕건</td><td>경기도</td></tr>
+</table>
+  <img src = "image1/kard1.png" id = "img" width="100" height="150">
+  <button id = "imgBtn">이미지 그림자 버튼</button>
+  <div class="flexslider">
+    <ul class="slides">
+      <li>
+        <img src="/image/pic1.jpg" width="50" height="50">
+      </li>
+      <li>
+        <img src="image/pic2.jpg" width="50" height="50">
+      </li>
+      <li>
+        <img src="image/pic3.jpg" width="50" height="50">
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

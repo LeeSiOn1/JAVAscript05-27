@@ -1,44 +1,95 @@
 <!DOCTYPE html>
 <html lang="ko">
+
+<
 <head>
-<meta charset="UTF-8">
-<title> Ajax </title>
-<script src="js/jquery.js"></script>
-<script>
-$(function() {
-	$.ajax({
-		url:"3-1news.php",
-		dataType:"xml",
-		success: function(data) {
-			var $items = $(data).find("item");
+  <meta charset="UTF-8">
+  
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+<title>겨울 풍경 갤러리</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider/dist/jquery.bxslider.min.css">
+  <style>
+    /* 추가적인 스타일링은 이곳에 작성하세요 
 
-			if($items.length > 0) {
-				$items = $items.slice(0,10);
-				var $ulTag = $("<ul />");
-				$.each($items, function(i, o) {
-					var $title = $(o).find("title").text();
-					var $link = $(o).find("link").text();
-					
-					var $aTag = $("<a />")
-					.attr({
-						"href":$link,
-						"target":"_blank"
-						})
-					.text($title);
+    /* 추가적인 스타일링은 이곳에 
 
-					var $liTag = $("<li />")
-					.append($aTag);
+    /* 추가적인 스타
 
-					$ulTag.append($liTag);
-				});
-				$(".wrap").append($ulTag);
-			}
-		}
-	});
-});
-</script>
+    /*
+
+    /* 추가적인 스타일링은 이곳에 작성하세요 */
+    .gallery {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .gallery img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
+
+<
 <body>
-	<div class="wrap"></div>
+  <div class="gallery">
+    <ul class="bxslider">
+      
+     
+<li><img src="image1.jpg" alt="겨울 풍경 1"></li>
+      
+     
+<li><img src="image2.jpg" alt="겨울 풍경 2"></li>
+      
+      <
+
+     
+<li><img src="image3.jpg" alt="겨울 풍경 3"></li>
+      
+      <!-
+
+      
+
+   
+<!-- 필요한 만큼 이미지를 추가하세요 -->
+    
+   
+</ul>
+    <div id="bx-pager">
+      
+      <
+
+  
+<!-- 섬네일 pager 영역 -->
+    
+    </d
+
+   
+</div>
+  
+  </
+</div>
+
+  
+
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bxslider/dist/jquery.bxslider.min.js"></script>
+  
+  
+<script>
+    $(document).ready(function(){
+      $('.bxs
+
+    $(document).ready(function(){
+      $('.bxslider').bxSlider({
+        pagerCustom: '#bx-pager'
+      });
+    });
+  </script>
+
+</
 </body>
 </html>
