@@ -1,95 +1,32 @@
-<!DOCTYPE html>
-<html lang="ko">
-
-<
-<head>
-  <meta charset="UTF-8">
-  
- 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  
-<title>겨울 풍경 갤러리</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider/dist/jquery.bxslider.min.css">
-  <style>
-    /* 추가적인 스타일링은 이곳에 작성하세요 
-
-    /* 추가적인 스타일링은 이곳에 
-
-    /* 추가적인 스타
-
-    /*
-
-    /* 추가적인 스타일링은 이곳에 작성하세요 */
-    .gallery {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    .gallery img {
-      max-width: 100%;
-      height: auto;
-    }
-  </style>
-</head>
-
-<
-<body>
-  <div class="gallery">
-    <ul class="bxslider">
-      
-     
-<li><img src="image1.jpg" alt="겨울 풍경 1"></li>
-      
-     
-<li><img src="image2.jpg" alt="겨울 풍경 2"></li>
-      
-      <
-
-     
-<li><img src="image3.jpg" alt="겨울 풍경 3"></li>
-      
-      <!-
-
-      
-
-   
-<!-- 필요한 만큼 이미지를 추가하세요 -->
-    
-   
-</ul>
-    <div id="bx-pager">
-      
-      <
-
-  
-<!-- 섬네일 pager 영역 -->
-    
-    </d
-
-   
-</div>
-  
-  </
-</div>
-
-  
-
-  
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bxslider/dist/jquery.bxslider.min.js"></script>
-  
-  
-<script>
-    $(document).ready(function(){
-      $('.bxs
-
-    $(document).ready(function(){
-      $('.bxslider').bxSlider({
-        pagerCustom: '#bx-pager'
-      });
-    });
-  </script>
-
-</
-</body>
-</html>
+<table bgColor=gold border=1>
+  <form name=Calc>
+    <tbody>
+      <tr>
+        <td align=center><input size=16 name=Input> <br></td>
+      </tr>
+      <tr>
+        <td>
+          <input onclick="Calc.Input.value += '1'" type=button value="  1  " name=one> 
+          <input onclick="Calc.Input.value += '2'" type=button value="  2  " name=two> 
+          <input onclick="Calc.Input.value += '3'" type=button value="  3  " name=three> 
+          <input onclick="Calc.Input.value += ' + '" type=button value="  +  " name=plus> 
+          <br>
+          <input onclick="Calc.Input.value += '4'" type=button value="  4  " name=four> 
+          <input onclick="Calc.Input.value += '5'" type=button value="  5  " name=five> 
+          <input onclick="Calc.Input.value += '6'" type=button value="  6  " name=six> 
+          <input onclick="Calc.Input.value += ' - '" type=button value="  -  " name=minus> 
+          <br>
+          <input onclick="Calc.Input.value += '7'" type=button value="  7  " name=seven> 
+          <input onclick="Calc.Input.value += '8'" type=button value="  8  " name=eight> 
+          <input onclick="Calc.Input.value += '9'" type=button value="  9  " name=nine> 
+          <input onclick="Calc.Input.value += ' * '" type=button value="  x  " name=times> 
+          <br>
+          <input onclick="Calc.Input.value = ''" type=button value="  c  " name=clear> 
+          <input onclick="Calc.Input.value += '0'" type=button value="  0  " name=zero> 
+          <input onclick="Calc.Input.value = eval(Calc.Input.value)" type=button value="  =  " name=DoIt> 
+          <input onclick="Calc.Input.value += ' / '" type=button value="  /  " name=div>
+        </td>
+      </tr>
+    </tbody>
+  </form>
+</table>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .tab {
+      background-color: #555;
+      color: white;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      font-size: 17px;
+      width: 25%;
+    }
+
+    /* 마우스를 넘길 때 배경색 변경 */
+    .tab:hover {
+      background-color: #777;
+    }
+
+    /* 선택된 탭의 배경색 변경 */
+    .selected {
+      background-color: gray;
+    }
+
+    /* 기본 내용 */
+    .content {
+      color: white;
+      display: none;
+      padding: 50px;
+      text-align: center;
+    }
+
+    /* 각 탭 내용을 개별적으로 스타일 지정 */
+    #About {
+      background-color: tomato;
+    }
+    #Products {
+      background-color: darkolivegreen;
+    }
+    #Technology {
+      background-color: dodgerblue;
+    }
+    #Downloads {
+      background-color: orange;
+    }
+  </style>
+</head>
+<body>
+  <div id="About" class="content">
+    <h1>About</h1>
+    <p>Custom Software Development Company</p>
+  </div>
+
+  <div id="Products" class="content">
+    <h1>Products</h1>
+    <p>Building tailored software to address critical needs of global enterprises.</p>
+  </div>
+
+  <div id="Technology" class="content">
+    <h1>Technology</h1>
+    <p>Machine Learning, Artificial Intelligence, Cloud Platform.</p>
+  </div>
+
+  <div id="Downloads" class="content">
+    <h1>Downloads</h1>
+    <p>You can download a free 10 days trial.</p>
+  </div>
+
+  <button id="default" class="tab" onclick="openMenu('About', this)">About</button>
+  <button class="tab" onclick="openMenu('Products', this)">Products</button>
+  <button class="tab" onclick="openMenu('Technology', this)">Technology</button>
+  <button class="tab" onclick="openMenu('Downloads', this)">Downloads</button>
+
+  <script>
+    // 시작 시 default 아이디를 사용하는 요소가 선택된 것처럼 처리
+    document.getElementById('default').click();
+
+    function openMenu(target, seltab) {
+      var contents = document.getElementsByClassName('content');
+      var tabs = document.getElementsByClassName('tab');
+
+      // 모든 content 클래스를 사용하는 요소들을 보이지 않도록 처리
+      for (var i = 0; i < contents.length; i++) {
+        var content = contents.item(i);
+        content.style.display = 'none';
+      }
+
+      // 모든 tab 클래스를 사용하는 요소들의 배경을 회색으로 변경
+      for (var i = 0; i < tabs.length; i++) {
+        var tab = tabs.item(i);
+        tab.classList.remove('selected'); // 선택된 탭 클래스 제거
+      }
+
+      // 선택된 target 요소만 보이도록 설정
+      document.getElementById(target).style.display = 'block';
+      // 선택된 탭의 배경을 변경
+      seltab.classList.add('selected'); // 선택된 탭에 클래스 추가
+    }
+  </script>
+</body>
+</html>

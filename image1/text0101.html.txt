@@ -1,0 +1,2043 @@
+0422-1008 자바 풀스택 & 네트워크 융합 개발자 -단톡방 님과 카카오톡 대화
+저장한 날짜 : 2024-05-29 12:36:29
+
+--------------- 2024년 4월 29일 월요일 ---------------
+[김현오] [오전 9:50] 웹 문서의 디자인과 내용을 분리합니다
+웹 표준에 의한 웹 문서는 디자인과 내용이 분리되어 있습니다.
+
+내용은 HTML을 이용해 구성하고, 디자인은 CSS를 이용해 꾸미는 것입니다.
+[김현오] [오전 10:12] <h2>Who am I?</h2>
+            <p>프런트엔드 웹 기술(Front-end Web Tech.)에 관심이 많습니다.<br>
+            현재 제주의 한 시골 마을에서 코딩 중입니다.</p>
+[김현오] [오전 10:38] 서울특별시 서울의 지향 이미지 : 역사와 활력의 인간도시 휘장은 한글 '서울'을 서울의 산, 해, 한강으로 나타내면서 전체적으로는 신명나는 사람의 모습을 형상화한 것으로 인간 중심도시를 지향하는 서울을 상징합니다. 자연 - 인간 - 도시의 맥락 속에서 녹색 산은 환경사랑, 청색 한강은 역사와 활력, 가운데 해는 미래의 비전과 희망을 함축하고, 이 세가지 요소를 붓터치로 자연스럽게 연결하여 서울의 이미지와 사람의 활력을 친근하게 느낄 수 있도록 하였습니다.
+[김현오] [오전 10:38] 사진
+[김현오] [오전 10:58] 옆에 있는 웹페이지에
+섹션을 지정하고   너비는 200px
+ 공백은 15px  테두리 스타일은 
+ 5px solid black 으로 하세요 
+외부 스타일로 할것 
+[김현오] [오전 11:01] <h1>블루베리에 관한 연구</h1>
+  <h2>블루베리와 항산화 효능</h2> 
+  <p>블루베리는 항산화제인 안토시아닌과 폴리페놀을 다량 포함하고 있습니다.</p>
+  <p>매사츄세츠 보스톤에 있는 USDA 노화에 관한 인류 영양 연구센터 (the USDA Human Nutrition Research Center on Aging) 의 자료에 의하면
+   블루베리는 과일 중에서 가장 항산화 작용이 뛰어난 과일이라고 합니다.  </p>
+  <h2>블루베리와 노화</h2> 
+  <p> USDA 인류 영양 연구센터(the USDA Human Nutrition Research Center) 실험실에서 신경과학자들은 쥐들에게 블루베리를 먹임으로써 
+  노화에 의한 인지능력의 손실을 예방해 준다는 사실을 발견하였습니다. </p>
+[김현오] [오전 11:16] 이지스퍼블리싱의 미션
+사람에게 구체적으로 도움을 주는 책
+우리는 열심히 사는 사람들에게 도움이 되고 싶습니다.
+우리는 책을 출간하기 전에 질문할 것입니다.
+"이 책이 사람들에게 도움이 됩니까?"
+
+정보의 지름길을 만들어 빠르게 원하는 곳으로 가도록 도와주는 책. 손에 잡히는 이익을 얻을 수 있도록 도움이 되는 책을 만들고 싶습니다.
+[김현오] [오전 11:53] 회사 소개
+“사람을 구체적으로 도와주는 책”
+이지스퍼블리싱(주)의 책에는 ‘사람들에게 구체적으로 도움이 되는 책’을 만든다는 출판 가치가 담겨 있습니다.
+
+2010년 5월 출범한 이지스퍼블리싱(주)는 크게 두 영역의 책을 출간합니다. IT 실용 도서와 학습 분야 도서입니다. IT 교재와 사진 책 등 실용서는 이지스퍼블리싱 브랜드로, 학습과 자녀교육 도서는 이지스에듀 브랜드로 출간하고 있습니다.
+
+이지스퍼블리싱의 미션
+사람에게 구체적으로 도움을 주는 책
+우리는 열심히 사는 사람들에게 도움이 되고 싶습니다.
+우리는 책을 출간하기 전에 질문할 것입니다.
+"이 책이 사람들에게 도움이 됩니까?"
+
+정보의 지름길을 만들어 빠르게 원하는 곳으로 가도록 도와주는 책. 손에 잡히는 이익을 얻을 수 있도록 도움이 되는 책을 만들고 싶습니다.
+[김현오] [오후 12:53] 이지스퍼블리싱의 미션
+사람에게 구체적으로 도움을 주는 책
+우리는 열심히 사는 사람들에게 도움이 되고 싶습니다.
+우리는 책을 출간하기 전에 질문할 것입니다.
+"이 책이 사람들에게 도움이 됩니까?"
+[김현오] [오후 1:03] CSS
+웹 문서의 디자인과 내용을 분리합니다
+웹 표준에 의한 웹 문서는 디자인과 내용이 분리되어 있습니다.
+
+내용은 HTML을 이용해 구성하고, 디자인은 CSS를 이용해 꾸미는 것입니다.
+[김현오] [오후 2:05] https://projects.verou.me/prefixfree/
+[김현오] [오후 2:08] https://www.w3.org/Style/CSS/
+[김현오] [오후 2:38] <style>
+      .box{
+         position:absolute;
+         left:50px;
+         top:70px;
+         width:100px;
+         height:60px;
+         background:#fff;
+         border:2px solid green;
+         text-align:center;
+         line-height:60px;
+      }
+      .box:hover {
+         -webkit-transform: rotate(15deg);
+         -moz-transform: rotate(15deg);
+         -o-transform: rotate(15deg);
+         -ms-transform: rotate(15deg);
+         transform: rotate(15deg);
+      }
+   </style>
+[이지호] [오후 2:59] https://fonts.google.com/selection/embed
+[김현오] [오후 3:56] 여러 요소가 함께 사용된 웹 문서 안에서 텍스트가 눈에 띄게 하려면 내용에 맞는 글꼴과 글자 크기, 그리고 글자색을 선택하는 것이 중요합니다.
+
+이럴 때 사용할 수 있는 것이 글꼴 속성입니다.
+
+[font:caption] 캡션에 어울리는 글꼴 스타일
+
+[font:icon] 아이콘에 어울리는 글꼴 스타일
+
+[font:menu] 드롭다운 메뉴에 어울리는 글꼴 스타일
+
+[font:message-box] 대화 상자에 어울리는 글꼴 스타일
+
+[font:small-caption] 작은 캡션에 어울리는 글꼴 스타일
+
+[font:status-bar] 상태표시줄에 어울리는 글꼴 스타일
+[김현오] [오후 4:20] HTML5
+다양한 기기로 인터넷에 접속할 수 있는 요즘,
+HTML4 HTML5를 공부해야 할 때입니다.
+
+HTML5 표준 규약 살펴보기
+[김현오] [오후 4:21] 세계 10대 슈퍼푸드
+
+마늘(Garlic)
+일해백리(一害百利)는 마늘의 별명이다. 한가지 해가 있고 백가지 이로움이 있다는 뜻이다. 그 한 가지 해란, 아린 맛으로 인해 위에 부담을 준다는 것이다.
+
+마늘 특유의 아린 맛은 알리신이라는 성분 때문으로, 살균 및 항균 작용을 하며 마늘에 들어 있는 아연이 피로 회복에 도움을 준다.
+--------------- 2024년 4월 30일 화요일 ---------------
+[김현오] [오전 9:40] 텍스트 정렬
+Integer elementum massa at nulla placerat varius. Suspendisse in libero risus, in interdum massa. Vestibulum ac leo vitae metus faucibus gravida ac in neque. Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+
+Integer elementum massa at nulla placerat varius. Suspendisse in libero risus, in interdum massa. Vestibulum ac leo vitae metus faucibus gravida ac in neque. Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+
+Integer elementum massa at nulla placerat varius. Suspendisse in libero risus, in interdum massa. Vestibulum ac leo vitae metus faucibus gravida ac in neque. Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+
+Integer elementum massa at nulla placerat varius. Suspendisse in libero risus, in interdum massa. Vestibulum ac leo vitae metus faucibus gravida ac in neque. Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+[김현오] [오전 9:53] 블루베리(Blueberry)
+블루베리의 대표적인 기능은 항산화로 비타민A, C, E가 풍부하고 안토니시아민, 페놀 등이 활성 산소를 없애 노화를 억제한다. 이밖에 블루베리의 안토니시아민은 눈의 피로와 시력 저하를 회복시키는 효능을 가지고 있다.
+
+블루베리의 대표적인 기능은 항산화로 비타민A, C, E가 풍부하고 안토니시아민, 페놀 등이 활성 산소를 없애 노화를 억제한다. 이밖에 블루베리의 안토니시아민은 눈의 피로와 시력 저하를 회복시키는 효능을 가지고 있다.
+
+블루베리의 대표적인 기능은 항산화로 비타민A, C, E가 풍부하고 안토니시아민, 페놀 등이 활성 산소를 없애 노화를 억제한다. 이밖에 블루베리의 안토니시아민은 눈의 피로와 시력 저하를 회복시키는 효능을 가지고 있다.
+[김현오] [오전 10:09] 귀리는 베타글루칸(항암 및 면역증강작용을 가지고 있는 불소화성 다당류) 성분을 포함하고 있다.
+[김현오] [오전 11:24] 이지스퍼블리싱
+회사소개
+도서
+자료실
+질문답변
+동영상강의
+회사소개
+도서
+자료실
+질문답변
+동영상강의
+[김현오] [오전 11:32] 도서 시리즈
+Do it! 시리즈
+된다 시리즈
+DCM 프로 사진가
+데이터과학 시리즈
+Do it! 시리즈
+된다 시리즈
+DCM 프로 사진가
+데이터과학 시리즈
+[김현오] [오전 11:41] ist-style-position을 지정하지 않음
+회사소개
+도서
+자료실
+질문답변
+동영상강의
+list-style-position : inside
+회사소개
+도서
+자료실
+질문답변
+동영상강의
+[김현오] [오후 12:28] CSS3 쪽지 시험 2024-04-30
+1. 한문서에서 반복해 쓰이는 스타일들을 모아 놓은 것을 무엇이라 하는 가?
+2.스타일의 규칙 ; 세미콜론이 뜻하는 것은?
+3. CSS3의 주석은 어떻게 표기 하는 가 ?
+4. 내부 스타일시트  외부스타일 시트 인라인 스타일 시트를 각각 정의 하세요?
+
+5.전체 선택자(Selector)는 어떻게 표기 하는 가?
+6. 클래스 선택자와 아이디 선택자 차이를 서술 하세요?
+   표기 방법부터 다른 점
+7. <div>와 <span>  차이를 서술 하세요
+8.  .content:hover
+    {
+       overflow: visible
+    }
+위의 CSS는 무엇을 의미 하는 가를 서술하세요
+
+둘이상 요소에 같은 스타일 적용 하려면 어떻게 고쳐야 하는 가
+h1{
+tex-align:center;
+}
+h2{
+tex-align:center;
+}
+9. 제작자는 스타일을 정의 할 때 다른 어느 스타일 부다 최우선으로
+적용 해야 할 스타일에는 (  )를 붙일 수 있다.
+괄호 안에 내용을 적으세요
+10.스타일 시트에서
+    글꼴에서 넘치는 텍스트는 자르고 말줄임표로 ....로 잘린 텍스트가 있다고 
+표시 하려면? 어떻게 해야 하는 가?
+
+[김현오] [오후 12:33] CSS3 쪽지 시험 2024-04-30
+1. 한문서에서 반복해 쓰이는 스타일들을 모아 놓은 것을 무엇이라 하는 가?
+2.스타일의 규칙 ; 세미콜론이 뜻하는 것은?
+3. CSS3의 주석은 어떻게 표기 하는 가 ?
+4. 내부 스타일시트  외부스타일 시트 인라인 스타일 시트를 각각 정의 하세요?
+
+5.전체 선택자(Selector)는 어떻게 표기 하는 가?
+6. 클래스 선택자와 아이디 선택자 차이를 서술 하세요?
+   표기 방법부터 다른 점
+7. <div>와 <span>  차이를 서술 하세요
+8.  .content:hover
+    {
+       overflow: visible
+    }
+위의 CSS는 무엇을 의미 하는 가를 서술하세요
+
+9.둘이상 요소에 같은 스타일 적용 하려면 어떻게 고쳐야 하는 가
+h1{
+tex-align:center;
+}
+h2{
+tex-align:center;
+}
+10. 제작자는 스타일을 정의 할 때 다른 어느 스타일 부다 최우선으로
+적용 해야 할 스타일에는 (  )를 붙일 수 있다.
+괄호 안에 내용을 적으세요
+11.스타일 시트에서
+    글꼴에서 넘치는 텍스트는 자르고 말줄임표로 ....로 잘린 텍스트가 있다고 
+표시 하려면? 어떻게 해야 하는 가?
+
+[이지호] [오후 1:07] 11110
+[박진화] [오후 1:07] 11110
+[이시온] [오후 1:07] 11100
+[장선호] [오후 1:07] 11110
+[박인규] [오후 1:08] 11110
+[안준섭] [오후 1:08] 11110
+[정필호] [오후 1:08] 11110
+[김민지] [오후 1:08] 11110
+[이시온] [오후 1:08] 11110
+[민경] [오후 1:09] 11110
+[김현오] [오후 2:47] 초콜릿(Chocolate)
+초콜릿은 카카오 콩을 재료로 가공한 식품이다. 숙성한 카카오 콩을 볶은 뒤 이를 갈아서 만든 카카오 매스와 지방 성분만으로 만들어진 코코아 버터를 혼합하여 만드는데, 설탕 등의 다른 재료를 더 넣어 만들기도 한다. 카카오 매스의 함량에 따라 다크 초콜릿, 밀크 초콜릿, 화이트 초콜릿으로 구분한다.
+[김현오] [오후 3:17] 토마토 : 토마토는 비타민A, C가 풍부할 뿐 아니라 희귀한 성분인 비타민 H와 P까지 포함된 과일이다. 칼륨과 같은 각종 미네랄은 혈액의 산성도를 낮추는 역할을 해주며 토마토에 들어있는 피코펜이라는 성분은 뛰어난 항암 작용을 보이며 잘 알려져 있듯이 블루베리와 함께 대표적인 항산화 음식이기도 하다.
+--------------- 2024년 5월 2일 목요일 ---------------
+[김현오] [오전 11:05] 절차
+github 가입
+github 저장소 생성
+github 저장소 클론
+내 컴퓨터의 내 문서 아래에 생성된 프로젝트 디렉토리에서 파일 생성 및 작업 완료
+커밋할 파일들 선택해서 스테이지에 올리기 (add)
+커밋하기 (commit)
+푸시하기 (push)
+github.com/내아이디/내프로젝트 링크를 통해 정상적으로 업로드 되어 있는지 확인
+git 이란?
+형상 관리 시스템(Verson Control System) 의 한 종류입니다. 주로 개발자들이 프로그램과 관련된 파일들을 저장하는 데 사용합니다. 게임의 세이브 포인트와 유사한데, 언제든지 저장 시점으로 되돌아 갈 수 있습니다. 여기서는 세 가지 기본 기념만 배우려 합니다.
+커밋 (commit)
+게임의 세이브에 해당하는 행동을 git에서는 커밋이라고 합니다. 다시 말해서 여러분은 언제든지 커밋한 시점으로 되돌아 갈 수 있습니다 . 커밋을 하려면 저장을 원하는 파일들을 묶어서 커밋 명령을 수행하면 됩니다.
+스테이지에 올린다 (add)
+앞에서 커밋하기 전에 저장을 원하는 파일들을 묶는 일을 해야 한다고 했습니다. 이 작업을 스테이지에 파일을 올린다라고 합니다. 혹은 줄여서 간단히 'add'라고도 합니다.
+github에 업로드 (push)
+커밋을 하면 이제 현재 작업 내용의 세이브 데이터가 내 컴퓨터에 저장됩니다. 이걸 github에 업로드하면 마치 요즘 유행하는 스팀이나 PS4, 각종 모바일 게임의 원격 저장과 비슷한 일을 합니다. 다른 사람이랑 공유할 수도 있고, 내 컴퓨터의 데이터가 날아가도 안전하게 다시 복구할 수 있습니다. github에 업로드하는 걸 git에서는 "push"라고 합니다.
+[김현오] [오후 5:12] 파일: 05-02-쪽지시험.txt
+--------------- 2024년 5월 3일 금요일 ---------------
+[김현오] [오후 12:02] 마크다운(Markdown)은 일반 텍스트
+ 기반의 경량 마크업 언어이다. 마크업 언어란, 
+태그 등을 이용하여 문서나 데이터의 구조 등을 명기하는
+ 언어의 한 가지이다. 텍스트만으로 서식이 있는 
+문서들을 작성할 때 자주 사용되며, 다른 마크업 언어들에 비해 
+문법이 쉽고 간단한 것이 특징. HTML 등의 서식 문서들로 쉽게 변환되기 
+때문에 README 파일이나 온라인 게시물 등에 사용된다.
+[김현오] [오후 12:36] fixed 값을 사용하는 요소 역시 absolute 값을 사용하는 요소처럼 문서 흐름과는 상관 없이 좌표로 위치를 결정하지만, 기준이 되는 요소가 부모 요소가 아니라 브라우저 창이 기준이 됩니다. 브라우저 창의 왼쪽 위 모서리 부분을 원점으로 좌표가 계산되고 한번 배치되면 fixed라는 이름처럼 브라우저 창을 스크롤하더라도 계속 고정되어 표시됩니다.
+
+fixed 값을 사용하는 요소 역시 absolute 값을 사용하는 요소처럼 문서 흐름과는 상관 없이 좌표로 위치를 결정하지만, 기준이 되는 요소가 부모 요소가 아니라 브라우저 창이 기준이 됩니다. 브라우저 창의 왼쪽 위 모서리 부분을 원점으로 좌표가 계산되고 한번 배치되면 fixed라는 이름처럼 브라우저 창을 스크롤하더라도 계속 고정되어 표시됩니다.
+[김현오] [오후 5:27] 1.(     )을 사용 하면 웹문서의 레이아웃을 다양하게 만 들수 있다.
+  웹 문서에 (   )을 배치 하는 것을 포지셔닝이라고 부른다.
+ 괄호 안에 내용을 넣으세요
+2. (  )속성은  웹요소를 문서위에 떠 있게 만든다.
+   여기서 떠있다라는 의미는 왼쪽 구석이나 오른쪽 구석에
+   요소가 배치된다는 뜻이다.(  )속성에서 사용 할 수 있는 값에는 왼쪽
+   오른쪽 그리고 좌우 어느 쪽도 아닌 것none이 있다.
+   괄호 안에 내용을 넣으세요
+3.float 속성을 해제하려면  어떻게 해야 하는 지 스타일 내용을 적으세요
+
+4.로렙입숨(Lorem lpsum) 대해 서술 하세요
+
+5. 웹문서 안의 요소들를 자유자재로 배치 해주는 속성이
+     position 속성이 있다. static relative absolute fixed 각각의 속성의 특징이
+   서술 하세요
+6.z-index -요소 쌓는 순서는 어떻게 지정 되는 지 서술 하세요
+7. column -gab속성은 어떤 역활을 하는지 서술 하세요
+--------------- 2024년 5월 7일 화요일 ---------------
+[김현오] [오전 9:48] https://nodejs.org/en/download/
+[김현오] [오전 10:05] -크롬 브라우저 설정
+- 비주얼 스튜디오 코드 설치
+- 실습할 프로젝트 폴더 생성
+- VSCode 확장 프로그램 설치
+ activity바 영역
+ SideBar 영역  파일 폴더 생성
+보기에 터미널 하단에 패널이라는 영역이 나온다.
+에디터 영역에서 코딩을 한다.
+
+확장 프로그램 : korean
+                    Bracket Pair(괄호가 여러개 일때 색깔이 다 다르다)
+                    indent rain : 자동으로 탭으로 구분해주고 가독성 있게 색깔을 넣어준다.
+                   Auto Rename Tag : 앞에 태그를 바꾸어주면 뒤에 태그도 자동으로 바꾸어 준다.
+                   CSS Peek : ctrl+왼쪽 마우스 클릭 : 클래스 선택자를 찾아준다.
+                  HTML to CSS autocompletion : 스타일 시트 선택자명을 자동 완성 시켜준다.
+                  HTML CSS Support: css 자동 완성을 지원 한다.
+                  IntelliSense for CSS class name 확장 프로그램
+                  prettier- code formatter 확장 프로그램 :코드를 예쁘게 정렬 해주는 확장 프로그램 
+                      ctrl+, : format on save
+                      default format
+                      tab width 2
+                      tab size 2
+                       quote
+[김현오] [오전 11:02] 애완견 종류
+애완견 종류
+입양하기
+건강돌보기
+더불어살기
+활달한 강아지
+요크셔테리어
+생기있고 활달한 성질을 가지고 있으며 자신보다 몸집이 큰 개나 집에 들어온 침입자를 겁내는 일이 없어 좋은 번견이고 우리나라 최고의의 가정견으로 자리 잡고 있다.
+
+말티즈
+애정이 많고, 충실하며 활발한 성격을 소유하고있다. 이 종은 1급 가정견으로 요크셔테리어와 함께 우리나라 최고의 가정견으로 자리잡고 있다.
+
+포메라이언
+활기차고 명랑한 개로 유명하고, 걷는 모습이 우아하다.충실하고 우호적인 성격이 가장 먼저 거론된다.
+
+골든 리트리버
+이 견종은 충성심이 강하고 성격이 활달하여 어린아이나 여성이 상대하기에 적합한 견종이다.참을성 또한 강하여 현재는실내에서도 많이 길러지고 있다.
+
+published by funnycom
+[김현오] [오후 4:18] https://convertio.co/kr/txt-converter/
+--------------- 2024년 5월 8일 수요일 ---------------
+[김현오] [오후 12:25] https://www.3playmedia.com/learn/how-to-guides/html5-video-captioning/
+[박인규] [오후 12:30] 삭제된 메시지입니다.
+[박인규] [오후 12:30] 삭제된 메시지입니다.
+[장선호] [오후 12:30] 삭제된 메시지입니다.
+[박인규] [오후 12:30] 어이쿠 제 친구한테 보낸다는걸
+[박인규] [오후 12:30] 잘못보냈습니다
+[장선호] [오후 12:30] 그
+[장선호] [오후 12:30] 회원가입버튼이
+[장선호] [오후 12:30] 없는거같은데
+[박진화] [오후 12:31] 중앙에 핑크색 버튼 회원가입 같은데 돈 나가는 거 같아요 ..
+[김현오] [오후 3:33] only-child - 부모 안에 자식 요소가 하나뿐일 때 자식 요소를 선택
+A:only-type-of - 부모 안에 A 요소가 하나뿐일 때 선택
+:first-child - 부모 안에 있는 모든 요소 중에서 첫 번째 자식 요소를 선택
+:list-child - 부모 안에 있는 모든 요소 중에서 마지막 자식 요소를 선택
+A:first-of-type - 부모 안에 있는 A 요소 중에서 첫 번째 요소를 선택
+A:Last-of-type - 부모 안에 있는 A 요소 중에서 마지막 요소를 선택
+:nth-child(n) - 부모 안에 있는 모든 요소 중에서 n번째 자식 요소를 선택
+:nth-last-child(n) - 부모 안에 있는 모든 요소 중에서 끝에서 n번째 자식 요소를 선택
+A:nth-of-type(n) - 부모 안에 있는 A 요소 중에서 n번째 요소를 선택
+A:nth-last-of-type(n) - 부모 안에 있는 A 요소 중에서 끝에서 n번째 요소를 선택
+[김현오] [오후 5:37] 1. 시멘틱 태그란 무엇인지 서술 하고
+    시멘틱 태그 종류를 나열 하세오
+2.웹 문서의 레이아웃을 만들때  시맨틱 태그를 사용 하지 않고
+ 웹 문서를 만들 수 있고 시맨틱 태그를 사용하거나 사용 하지 않아도
+  웹 브라우저에 나타나는 모습은 같은데  왜 굳이 HTML5와 CSS3에서 
+굳이 써야 하는 이유를 서술 하세요?
+3.시맨틱 태그중 <   > 태그는 본문 이외의 내용 표시하기 이다.
+  <   >괄호 안에 들어갈 태그를 적으세요
+4. 서로 다른 웹브라우저나 버전이 낮은 웹브라우저에서도 
+    시맨틱 태그가 적용 될려면 무엇을 사용 해야 하는 가?
+5. 웹과 멀티 미디어에서 웹브라우저에서 처리 할 수 없는 작업을 위해
+   웹 문서 안에 포함시킨 외부 프로그램 기능을 플러그 인이라고 한다.
+   이런 플러그인을 웹 브라우저에게 적용 하려면 
+   어떤 태그를 써야 하는 가 2가지 태그를 적으세요
+
+6. HTML5와 비디오 코덱에서
+     인코딩과 디코딩에 대해서 설명하세요
+
+7. 비디오 파일에서  여러 미디어 파일을 한꺼번에 지정 해야 하는 태그는?
+
+8. h1+ p{ text-decoration: underline; }
+   무슨 태그인지 설명 하세요
+9.[속성 *=값]  는 값이 속성 값의 일부 일때이다 
+     예시 와 예시의 적용되는 요소 태그 내용을 적으세요
+
+10. [속성 ~=값]는 여러값들 중 특정 값이 포함 되어 있을 때(단어별) 적용된다.
+     예시 와 예시의 적용되는 요소 태그 내용을 적으세요
+
+  
+--------------- 2024년 5월 13일 월요일 ---------------
+[이지호] [오전 11:46] <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <pre><script>
+      var box = 100;
+      document.writeln('box값:', box,);
+      box = 30;
+      document.writeln('box값:', box,);
+    </script></pre>
+  </head>
+  <body></body>
+</html>
+[장선호] [오전 11:47] 사진
+[안준섭] [오전 11:47] <!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex2</title>
+  </head>
+  <body>
+    <pre>
+    <script>
+      var box = 100;
+      document.writeln("box값 : ", box);
+      var box = 30;
+      document.writeln("box값 : ", box);
+    </script>
+    </pre>
+  </body>
+</html>
+[이시온] [오전 11:49] <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <pre>
+    <script>
+var box = 100;
+document.writeln("box값:", box);
+box = 30;
+document.writeln("<br>box값:", box);
+  </script>
+  </pre>
+</head>
+<body>
+</body>
+</html>
+[김현오] [오후 1:01] 자바스크립트에서 var와 let의 차이점
+var와 let는 모두 자바스크립트에서 변수를 선언하는 데 사용되는 키워드이지만, 범위(scope), 
+재선언(redeclaration), 호이스팅(hoisting) 측면에서 차이점을 가지고 있습니다.
+
+1. 범위 (Scope):
+
+var: 함수 스코프(Function Scope)를 따릅니다. 즉, 선언된 함수 블록 내에서만 유효하며,
+ 해당 블록 외부에서는 접근할 수 없습니다. 하지만, 함수 블록 내에서 선언된
+ var 변수는 같은 이름의 다른 var 변수를 재선언할 수 있습니다.
+let: 블록 스코프(Block Scope)를 따릅니다. 즉, 선언된 블록 내에서만 유효하며, 
+해당 블록 외부에서는 접근할 수 없습니다. 또한, 같은 블록 내에서 같은 이름의 let 변수를 재선언할 수 없습니다.
+예시:
+
+JavaScript
+function func() {
+  var var1 = 10; // 함수 스코프 (var)
+  let let1 = 20; // 블록 스코프 (let)
+
+  console.log(var1); // 10 출력
+  console.log(let1); // 20 출력
+
+  var1 = 30; // 같은 이름의 var 변수 재선언 가능
+  let1 = 40; // 같은 이름의 let 변수 재선언 불가능 (에러 발생)
+
+  console.log(var1); // 30 출력
+  // console.log(let1); // 에러 발생
+}
+
+func();
+
+console.log(var1); // ReferenceError: var1 is not defined
+console.log(let1); // ReferenceError: let1 is not defined
+코드를 사용할 때는 주의가 필요합니다.
+content_copy
+2. 재선언 (Redeclaration):
+
+var: 동일한 함수 스코프 내에서 같은 이름의 var 변수를 재선언할 수 있습니다.
+let: 동일한 블록 스코프 내에서 같은 이름의 let 변수를 재선언할 수 없습니다.
+예시:
+
+JavaScript
+function func() {
+  var var1 = 10;
+  var var1 = 20; // 동일한 함수 스코프에서 var 재선언 가능
+
+  console.log(var1); // 20 출력
+}
+
+func();
+코드를 사용할 때는 주의가 필요합니다.
+content_copy
+3. 호이스팅 (Hoisting):
+
+var: 선언되기 전에도 변수 선언이 맨 위로 끌어올려지는 (hoisting) 현상이 발생합니다. 
+즉, 선언 위치와 상관없이 변수를 사용할 수 있지만, 값은 초기화되지 않아 undefined 값을 반환합니다.
+let: 호이스팅이 일어나지 않습니다. 선언된 블록 범위 내에서만 변수를 사용할 수 있으며, 
+선언 위치 이전에 사용하면 ReferenceError를 발생시킵니다.
+예시:
+
+JavaScript
+function func() {
+  console.log(var1); // undefined 출력 (var 호이스팅)
+
+  var var1 = 10;
+
+  console.log(let1); // ReferenceError: let1 is not defined (let 호이스팅 없음)
+  let let1 = 20;
+}
+
+func();
+코드를 사용할 때는 주의가 필요합니다.
+content_copy
+결론:
+
+var는 함수 스코프를 따르고, 재선언이 가능하며, 호이스팅이 발생합니다.
+let은 블록 스코프를 따르고, 재선언이 불가능하며, 호이스팅이 발생하지 않습니다.
+추가적으로, 최신 웹 개발에서는 let을 사용하는 것이 권장됩니다. 이는 let이 더욱 명확하고 안전한 코드 작성을 가능하게 하기 때문입니다.
+
+참고:
+
+MDN var [유효하지 않은 URL 삭제됨]
+MDN let [유효하지 않은 URL 삭제됨]
+[박인규] [오후 2:39] <script>
+  var korNum = Number (prompt ("당신의 국어점수는?"));
+  var engNum = Number (prompt ("당신의 영어점수는?"));
+  var mathNum = Number (prompt ("당신의 수학점수는?"));
+  
+
+  var result=0;
+  result =(korNum+engNum+mathNum)/3;
+  document.write("총점 : ",result,"<br>");
+  if(result>=90)  document.write("수 ",result,"<br>")
+  else if(result>=80) document.write("우 ",result,"<br>")
+  else if(result>=70) document.write("미 ",result,"<br>")
+  else if(result>=60) document.write("양 ",result,"<br>")
+  else  document.write("가 ",result)
+
+  korNum.tofixed(3);
+  engNum.tofixed(3);
+  mathNum.tofixed(3);
+
+</script>
+[안준섭] [오후 2:39] var kor = Number(prompt("국어점수를 입력하시오", 0));
+var math = Number(prompt("수학점수를 입력하시오", 0));
+var eng = Number(prompt("영어점수를 입력하시오", 0));
+var result;
+
+result = kor + math + eng;
+
+var ever;
+
+ever = result / 3;
+ever.toFixed(2);
+if (ever >= 90) document.write("수 ", ever, "<br>");
+else if (ever >= 80) document.write("우 ", ever, "<br>");
+else if (ever >= 70) document.write("미 ", ever, "<br>");
+else if (ever >= 60) document.write("양 ", ever, "<br>");
+else document.write("가 ", ever, "<br>");
+[장선호] [오후 2:39]   var korNum = Number (prompt ("당신의 국어점수는?"));
+  var engNum = Number (prompt ("당신의 영어점수는?"));
+  var mathNum = Number (prompt ("당신의 수학점수는?"));
+  
+
+  var result=0;
+  result =(korNum+engNum+mathNum)/3;
+  document.write("총점 : ",result,"<br>");
+  if(result>=90)  document.write("수 ",result,"<br>")
+  else if(result>=80) document.write("우 ",result,"<br>")
+  else if(result>=70) document.write("미 ",result,"<br>")
+  else if(result>=60) document.write("양 ",result,"<br>")
+  else  document.write("가 ",result)
+
+  korNum.tofixed(3);
+  engNum.tofixed(3);
+  mathNum.tofixed(3);
+[장선호] [오후 2:42] 사진
+[장선호] [오후 2:42] 사진
+[장선호] [오후 2:42] input 응용한거요ㅋㅋ
+--------------- 2024년 5월 14일 화요일 ---------------
+[장선호] [오전 9:53] 사진
+[박인규] [오전 9:56] 사진
+[장선호] [오전 11:12] 사진
+[장선호] [오전 11:58] 사진
+[장선호] [오후 12:08] var a = prompt("츨력할 단의 숫자 입력");
+  for(let i = 10; i>=1; i--){
+    document.write(a+"x"+i+"="+ (a*i)+"<br>");
+  }
+[이시온] [오후 12:41] 삭제된 메시지입니다.
+[정필호] [오후 12:44] var i = 2;
+    var j = 1;
+    while (i < 10) {
+      while (j < 10) {
+        document.write(i, '×', j, '=', i * j, '<br>');
+
+        j++;
+      }
+      i++;
+      j = 1;
+      document.write('<br>');
+    }
+[이지호] [오후 12:48]       var i = 9;
+      var j = 9;
+      while (i > 1) {
+        while (j > 0) {
+          document.write(i, '×', j, '=', i * j, '<br>');
+          j--;
+        }
+        i--;
+        j = 9;
+      }
+[박진화] [오후 12:48] 사진
+[장선호] [오후 12:48] 사진
+[이시온] [오후 12:49] 삭제된 메시지입니다.
+[이시온] [오후 12:50] 사진
+[박인규] [오후 12:50] 사진
+[박인규] [오후 1:03] 사진
+[이지호] [오후 1:06]       for (var a = 2; a < 10; a++) {
+        for (var b = 1; b < 10; b++) {
+          if (a % 2 != 0) continue;
+          document.write(a + '×' + b + '=' + a * b, '<br>');
+          if (b === a) break;
+        }
+      }
+[장선호] [오후 1:07] 사진
+[김현오] [오후 2:18] 사진
+[김현오] [오후 2:19] 사진
+[김현오] [오후 3:23] 삭제된 메시지입니다.
+[김현오] [오후 3:24] 필자가 좋아하는 것 중 하나가 금요일 저녁 퇴근길에 DVD나 만화책을 잔뜩 빌리고, 동네 슈퍼에 들러서 군것질거리를 사가지고 집에 들어가는 것이다. 오늘은 금요일이다. 현재 필자의 주머니에는 5천원이 있다. DVD 한 편을 빌리면 3,500원이 남는다. 슈퍼에 들려서 크림빵(500원), 새우깡(700원), 콜라(400원)를 사려한다. 잔돈을 하나도 남기지 않고 이 세가지 물건을 하나 이상 반드시 구매하려면 어떻게 구매를 진행해야 하겠는가? 물론 여기에는 여러 가지 경우의 수가 있을 것이다. 필자가 어떠한 선택을 할 수 있는지 여러분이 제시해 주기 바란다.
+
+[김현오] [오후 3:24] 사진
+[장선호] [오후 3:37] 사진
+[김현오] [오후 5:43] 1.조건문 if()와 선택문 switch() 
+  차이점 어떨때 if문을 쓰고 어떨때 switch문을 쓰는 가?
+2.반복문 while()과 do while 의 차이를 서술 하세요
+3. for문과 while문의 차이를 서술 하세요
+4. 반복문에 쓰이는 break와 continue는 어떻게 다른가?
+5. 6행 7열의 테이블을 만들고 
+    3행 4열은 노란색으로 채우시오 
+[류지혜] [오후 6:29] 사진
+[류지혜] [오후 6:29] 가신걸까요? 
+[이지호] [오후 6:29] 아 넵
+[류지혜] [오후 6:29] ㅎㅎ 넹
+[박인규] [오후 6:29] 처분 부탁드립니다
+[류지혜] [오후 6:30] 버리라고요? ㅎㅎ
+[이지호] [오후 6:30] 다음엔 안에넣어놓겠습니다ㅠ
+[류지혜] [오후 6:30] 아 남아서 야자하시는줄 알고.. ㅎㅎ 기다렸는데 안오셔서... 
+[이지호] [오후 6:31] 죄송해여ㅠㅠ 저 아저씨 말음 무시하세여ㅠ
+[류지혜] [오후 6:31] 넵 모두 목욜날 뵙겠습니당
+[류지혜] [오후 6:31] ㅎㅎ
+[이지호] [오후 6:31] 넵!
+[박인규] [오후 6:32] 목요일날 뵙겠습니다
+[박인규] [오후 6:33] 이모티콘
+--------------- 2024년 5월 16일 목요일 ---------------
+[이지호] [오전 11:35] 
+      var dice = Math.ceil(Math.random() * 6);
+      document.write(dice);
+[장선호] [오전 11:36] 사진
+[김현오] [오전 11:45] 파일: images.zip
+[김현오] [오후 4:26] 파일: Doit_자바스크립트_제이쿼리_전면개정판_소스_210407.zip
+[김현오] [오후 5:26] 1. 다음의 표를 객체로 만들어라
+속성   값
+이름   Nature of Code
+가격   30000원
+저자   Deniel Shifman
+ISBM   9788968481901
+페이지   620
+ 객체 값을  출력 하세요
+
+2. 다음의 데이터를 객체 배열로 만들어라
+이름   미네랄   가스   보급품
+일벌레   50   0   1
+여왕   150   0   2
+바퀴   75   25   2
+히드라리스크   100   50   2
+타락귀   150   100   2
+
+3.최고의 점수를 받은 학생명을 출력하여라. 
+var studentScore = [
+      {studentName : '홍길동', score : 65},
+      {studentName : '이순신', score : 75},
+      {studentName : '고길동', score : 83},
+      {studentName : '유관순', score : 67},
+      {studentName : '홍길순', score : 65}
+              ];
+
+4. 반복문과 if()문을 이용한 문제 
+   정수 3 하고 8을 입력 받았다면 
+반복문을 이용해서 3단과 8단을 출력하고
+8하고 3을 거꾸로 입력 해도 3단에서 8단이 
+ 출력 되어야 한다.
+
+   
+
+
+
+
+
+
+
+
+
+
+   
+
+   
+--------------- 2024년 5월 20일 월요일 ---------------
+[류지혜] [오전 9:11] ** 공지 **
+첫번째 단위기간
+(24.04.22 ~ 24.05.21)
+훈련장려금 관련 
+계좌번호 확인중입니다.
+
+실업급여 수급자는 
+훈련장려금 대상자에서 제외대상임.
+
+실업급여
+수급자 분을 
+제외한 나머지 분은
+
+개.별.카.톡.으로 
+류지혜에게 
+계좌번호(본인명의 계좌)를 기재 후, 
+보내주시면 되십니다.
+감사합니다.
+[박인규] [오전 10:36] 삭제된 메시지입니다.
+[박인규] [오전 10:37] 어이쿠 여기가 아니였네요
+[김현오] [오후 12:23] const numbers = [];
+for (let i = 0; i < 10; i++) {
+  const inputNumber = parseInt(prompt(`${i + 1}번째 수를 입력하세요: `));
+  numbers.push(inputNumber);
+}
+
+// 2. 홀수와 짝수를 판별하여 출력
+const evenNumbers = [];
+const oddNumbers = [];
+for (const number in numbers) {
+  if (number % 2 === 0) {
+    evenNumbers.push(number);
+  } else {
+    oddNumbers.push(number);
+  }
+}
+console.log('홀수 출력:', oddNumbers);
+console.log('짝수 출력:', evenNumbers);
+[김현오] [오후 1:09] /*function bubbleSort(array) {
+  for (let i = 0; i < array.length - 1; i++) {
+    for (let j = 0; j < array.length - i - 1; j++) {
+      if (array[j] > array[j + 1]) {
+        [array[j], array[j + 1]] = [array[j + 1], array[j]];
+      }
+    }
+  }
+  return array;
+}*/
+/*function DesendbubbleSort(array) {
+  for (let i = 0; i < array.length - 1; i++) {
+    for (let j = 0; j < array.length - i - 1; j++) {
+      if (array[j] < array[j + 1]) {
+        var temp = array[j];
+        array[j] = array[j + 1];
+        array[j + 1] = temp;
+      }
+    }
+  }
+  return array;
+}*/
+/*const numbers = [5, 2, 4, 1, 3, 8, 6];
+//const sortedNumbers = bubbleSort(numbers);
+const sortedNumbers2 = DesendbubbleSort(numbers);
+//console.log(sortedNumbers); // [1, 2, 3, 4, 5]
+console.log(sortedNumbers2);*/
+// 1부터 100까지 랜덤 값을 생성하는 함수
+
+/*function generateRandomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+// 배열 선언 및 랜덤 값 삽입
+const numbers = [];
+for (let i = 0; i < 100; i++) {
+  numbers.push(generateRandomNumber(1, 100));
+}
+
+console.log('원본 배열:', numbers);*/
+
+/*const numbers = [];
+for (let i = 0; i < 10; i++) {
+  const inputNumber = parseInt(prompt(`${i + 1}번째 수를 입력하세요: `));
+  numbers.push(inputNumber);
+}
+
+// 2. 홀수와 짝수를 판별하여 출력
+const evenNumbers = [];
+const oddNumbers = [];
+for (const number in numbers) {
+  if (number % 2 === 0) {
+    evenNumbers.push(number);
+  } else {
+    oddNumbers.push(number);
+  }
+}
+console.log('홀수 출력:', oddNumbers);
+console.log('짝수 출력:', evenNumbers);*/
+
+// 10개의 정수를 담을 배열 선언
+/*const numbers = new Array(10);
+// 10개의 정수 입력
+for (let i = 0; i < numbers.length; i++) {
+  numbers[i] = parseInt(
+    prompt(`숫자를 입력하세요 (${i + 1}/${numbers.length}):`)
+  );
+}
+
+// 홀수와 짝수를 담을 배열 선언
+const odds = [];
+const evens = [];
+
+// 입력받은 숫자를 홀수와 짝수 배열에 분류
+for (let number of numbers) {
+  if (number % 2 === 1) {
+    odds.push(number);
+  } else {
+    evens.push(number);
+  }
+}
+
+// 홀수 배열을 앞에서부터, 짝수 배열을 뒤에서부터 원본 배열에 채워넣기
+let oddIndex = 0;
+let evenIndex = evens.length - 1;
+for (let i = 0; i < numbers.length; i++) {
+  if (i % 2 === 0) {
+    numbers[i] = odds[oddIndex++];
+    
+  } else {
+    numbers[i] = evens[evenIndex--];
+    
+  }
+}
+
+// 결과 출력
+console.log('변환된 배열:', numbers);*/
+
+// 10진수 정수 입력
+const decimalNumber = parseInt(prompt('10진수 정수를 입력하세요:'));
+// 이진수 변환 함수
+function decimalToBinary(decimalNumber) {
+  // 몫과 나머지를 저장할 변수 선언
+  let quotient = decimalNumber;
+  let binaryString = '';
+  while (quotient !== 0) {
+    // 나머지를 이진수 문자열에 추가
+    binaryString = `${quotient % 2}${binaryString}`;
+
+    // 몫을 2로 나누어 다음 반복 준비
+    quotient = Math.floor(quotient / 2);
+  }
+
+  return binaryString;
+}
+
+// 이진수 출력
+const binary = decimalToBinary(decimalNumber);
+console.log(`${decimalNumber}의 이진수 표현은 ${binary}입니다.`);
+[김현오] [오후 2:08] https://bba-jin.tistory.com/7
+[김현오] [오후 4:09] 사진
+[김현오] [오후 4:09] 사진
+[김현오] [오후 4:52]  const myImage = document.getElementById('image');
+      const hoverImage = new Image();
+      hoverImage.src = 'images/light_on.png';
+
+      myImage.addEventListener('mouseover', function () {
+        myImage.src = hoverImage.src;
+      });
+
+      myImage.addEventListener('mouseout', function () {
+        myImage.src = 'images/light_off.png';
+      });
+[김현오] [오후 4:54] const myImage = document.getElementById('myImage');
+const hoverImage = new Image();
+hoverImage.src = 'hover.jpg';
+
+myImage.addEventListener('mouseover', function() {
+    myImage.src = hoverImage.src;
+});
+
+myImage.addEventListener('mouseout', function() {
+    myImage.src = 'original.jpg';
+});
+--------------- 2024년 5월 21일 화요일 ---------------
+[김현오] [오후 12:17] <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>selector_tragramming</title>
+</head>
+
+<body>
+
+    <input id="result" type="text">
+
+    <ul>
+      <li>tag1</li>
+      <li>tag2</li>
+      <li>tag3</li>
+      <li>tag4</li>
+      <li>tag5</li>
+      <li>tag6</li>
+      <li>tag7</li>
+    </ul>  
+
+    <ul>
+      <li>tag8</li>
+      <li>tag9</li>
+      <li>tag10</li>
+      <li>tag11</li>
+      <li>tag12</li>
+      <li>tag13</li>
+      <li>tag14</li>
+    </ul>
+    
+</body>
+</html>
+[김현오] [오후 5:08] 파일: 05-21-쪽지시험.hwp
+[김현오] [오후 5:08] 답을 적은후 메일로 보내주세요
+--------------- 2024년 5월 22일 수요일 ---------------
+[장선호] [오후 3:31]       $(function () {
+        $("#menu .woori1, .woori2, .woori3, .woori4, .woori5, .woori6, .woori7, .woori8").hover(
+          function () {
+            $(this).animate({ marginLeft: "0px" });
+          },
+          function () {
+            $(this).animate({ marginLeft: "85px" });
+          }
+        );
+      });
+[김현오] [오후 4:47] 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script>
+$(document).ready(function() {    
+    $("#btn1").click(function(){
+        $("div").animate({left: "300px"}, 3000); // 오른쪽으로 300픽셀 이동
+    });
+});
+</script>
+<style>
+div {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}    
+</style>
+</head>   
+<body>
+    <p>
+        <button id="btn1">오른쪽으로 이동시키기</button>
+    </p>
+    <div></div>
+</body>  
+</html>
+--------------- 2024년 5월 23일 목요일 ---------------
+[김현오] [오후 3:26] 사진
+[김현오] [오후 5:11] 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>산수를 풀어 봅시다</title>
+<style>
+td {
+   padding-left : 10px;
+   padding-right : 10px;
+}
+</style>
+<script>
+function calc() {
+   let total = 0;
+   let qArray = document.getElementsByClassName("question");
+   let aArray = document.getElementsByClassName("answer");
+   for(let i=0; i<qArray.length; i++) {
+      let question = qArray[i].innerHTML;
+      let correctAnswer = eval(question);
+      let userAnswer = aArray[i].value;
+      if(userAnswer=="" || isNaN(userAnswer)) {// 답이 없거나 문자가 입력된 경우
+         total += 0;
+         qArray[i].style.textDecoration = "line-through";
+      }
+      else if(parseInt(userAnswer) == correctAnswer) { // 답이 맞는 경우
+         total += 1;
+         qArray[i].style.textDecoration = "none"; // 혹시 이전에 틀린 문제에 다시 답을 하고 채점버튼을 누르는 경우를 위해
+      }
+      else {// 답이 틀린 경우
+         total += 0;
+         qArray[i].style.textDecoration = "line-through";
+      }
+   }
+   document.getElementById("score").innerHTML = total;
+}
+</script>
+</head>
+<body>
+<h3>산수 문제를 풀어 봅시다.</h3>
+수식을 계산하여 답을 입력하고 채점 버튼을 누르세요.
+<hr>
+<form>
+<table>
+<tr><td class="question">5*6</td><td><input class="answer" type="text" size="8"></td></tr>
+<tr><td class="question">7+5*3</td><td><input class="answer" type="text" size="8"></td></tr>
+<tr><td class="question">23*2</td><td><input class="answer" type="text" size="8"></td></tr>
+<tr><td class="question">35-7</td><td><input class="answer" type="text" size="8"></td></tr>
+<tr><td><button type="button" onclick="calc()">채점</button></td>
+   <td><span id="score">0</span></td></tr>
+</table>
+</form>
+</body>
+</html>
+[김현오] [오후 5:55] 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>onmouseover과 onmouseout</title>
+<script>
+let text=["빨간자전거를 타고 서울, 대전, 대구, 부산 찍고, 목포, 인천을 거쳐 달린다",
+          "한국 고전 50권, 외국 고전 50권을 읽는 목표",
+          "아침에는 수영을 배우고, 점심먹고 자전거 훈련 30KM, 저녁에는 10KM 달리기 하기",
+          "문제가 많고 잘 정리된 자바스크립트 책을 구입하여 본격적으로 연습문제 풀기"];
+let commentDiv;
+
+function init() {
+   commentDiv = document.getElementById("commentDiv");   
+
+   let liArray = document.getElementsByTagName("li");
+   for(let i=0; i<liArray.length; i++) {
+      liArray[i].addEventListener("mouseover", over, false);
+      liArray[i].addEventListener("mouseout", hideCommentDiv, false);
+  /*addEventListener()는 document의 특정요소(Id,class,tag 등등..) event(ex - click하면 함수를 실행하라,
+   마우스를 올리면 함수를 실행하라 등등.. )를 등록할 때 사용 */
+   }
+}
+
+function over(e) {
+   let n=0;
+   switch(e.target.id) {
+      case "l0" : n = 0; break;
+      case "l1" : n = 1; break;
+      case "l2" : n = 2; break;
+      case "l3" : n = 3; break;
+   }
+   setCommentDiv(text[n], e);   
+}
+
+function setCommentDiv(comment, e) {
+   commentDiv.innerHTML = comment;
+   commentDiv.style.left = e.clientX + "px";
+   commentDiv.style.top = e.clientY + "px";
+   commentDiv.style.border = "1px solid yellowgreen";
+   commentDiv.style.background = "aliceblue";
+   commentDiv.style.visibility = "visible";
+   commentDiv.style.width = "200px";
+   commentDiv.style.height = "80px";
+}
+
+function hideCommentDiv() {
+   commentDiv.style.visibility = "hidden";
+}
+
+</script>
+</head>
+<body onload="init()">
+<h3>아이템에 마우스를 올리면 설명 출력</h3>
+<hr>
+<p>여름 방학 때 하고 싶은 것들</p>
+<ul>
+   <li id="l0">자전거로 대한민국 일주</li>
+   <li id="l1">책 100권 읽기</li>
+   <li id="l2">철인 3종 경기 준비</li>
+   <li id="l3">자바스크립트 정복</li>
+</ul> 
+<div id="commentDiv" style="position:absolute"></div>
+</body>
+</html>
+[김현오] [오후 6:08] 파일: 0523(quiz4).html
+--------------- 2024년 5월 24일 금요일 ---------------
+[장선호] [오전 10:09] https://leptonnw.synology.me/phpmyadmin
+[장선호] [오전 10:10] 아이디 root
+비밀번호 Congress2tlf@
+[장선호] [오전 10:19] https://leptonnw.synology.me:501
+[장선호] [오전 10:19] 아이디 : woori
+[장선호] [오전 10:19] 비밀번호 Congress2tlf@
+[김현오] [오전 11:06] <!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery.js"></script>
+    <script>
+      function show() {
+        var arr = document.querySelectorAll("input[name='hobby']");
+        //체크 박스 네임명을 다 찾아서 arr 배열에 넘긴다.
+        var str = '';
+        for (var i = 0; i < arr.length; i++) {
+          var c = arr[i]; // 3번 돌때마다 배열의 인덱스 값을 변수 c에 대입
+          if (c.checked) {
+            // 체크가 되었다면....
+            str += c.value + '<br>'; //체크된 것들을 str 변수에 넘김
+          }
+        }
+        document.getElementById('result').innerHTML = '<h1>' + str + '</h1>';
+      }
+    </script>
+  </head>
+  <body>
+    취미<br />
+    <ul>
+      <li>야구<input type="checkbox" name="hobby" value="야구" /></li>
+      <li>농구<input type="checkbox" name="hobby" value="농구" /></li>
+      <li>게임<input type="checkbox" name="hobby" value="게임" /></li>
+    </ul>
+    <button onclick="show()">결과보기</button><br />
+    결과값:
+    <div id="result"></div>
+  </body>
+</html>
+[김현오] [오후 12:26] <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>동일 복사</title>
+    <script>
+      function check(n) {
+            if (n.checked) {
+                document.getElementById("address2").value =
+                    document.getElementById('address1').value;
+                document.getElementById("phone2").value =
+                    document.getElementById('phone1').value;
+            } else {
+                document.getElementById("address2").value = "";
+                document.getElementById("phone2").value = "";
+            }
+        }
+        /*if 문으로 토글기능. checked 기억하기 add이벤트리스너로 바꿔보기     */
+      /*document.getElementById('chk').addEventListener('click', check, false);
+      function check() {
+        var n = document.getElementById('chk');
+        if (n.checked) {
+          document.getElementById('address2').value =
+            document.getElementById('address1').value;
+          document.getElementById('phone2').value =
+            document.getElementById('phone1').value;
+        } else {
+          document.getElementById('address2').value = '';
+          document.getElementById('phone2').value = '';
+        }
+      }
+    </script>
+  </head>
+  <body>
+    회원정보<br />
+    주소<input
+      type="text"
+      name="address1"
+      id="address1"
+      value="서울시 강남구"
+    /><br />
+    전화번호<input
+      type="text"
+      name="phone1"
+      id="phone1"
+      value="010-1234-1234"
+    /><br />
+    <hr />
+    동일<input type="checkbox" name="chk" onclick="check(this)" />
+    <hr />
+    배송지 정보<br />
+    주소<input type="text" name="address2" id="address2" value="" /><br />
+    전화번호<input type="text" name="phone2" id="phone2" value="" /><br />
+  </body>
+</html>
+[장선호] [오후 1:11] https://leptonnw.synology.me/우리컴퓨터아카데미/javascriptstudy/0513/0524_5.html
+[김현오] [오후 1:12] <h1>1. +연산</h1>
+<input type="text" name="v1" id="v1" value="10">+
+<input type="text" name="v2" id="v2" value="20">=
+<input type="text" name="result" id="result" value="">
+<button onclick="sum()">연산</button><br>
+function sum() {
+    var v1 = document.getElementById('v1').value;
+    var v2 = document.getElementById('v2').value;
+    var result = parseInt(v1) + parseInt(v2);
+        document.getElementById('result').value = result;
+}
+[김현오] [오후 2:11] <h1>1. +연산</h1>
+<input type="text" name="v1" id="v1" value="10">+
+<input type="text" name="v2" id="v2" value="20">=
+<input type="text" name="result" id="result" value="">
+<button onclick="sum()">연산</button><br>
+function sum() {
+    var v1 = document.getElementById('v1').value;
+    var v2 = document.getElementById('v2').value;
+    var result = parseInt(v1) + parseInt(v2);
+        document.getElementById('result').value = result;
+}
+<h1>2. 총합 구하기</h1>
+가격<input type="text" name="price" id="price" value="2500">X
+수량<select id="quantity" onchange="total()">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+</select>
+총합:<span id="total"></span>
+function total() {
+    var price = document.getElementById('price').value
+    var quantity = document.getElementById('quantity').value;
+    document.getElementById('total').innerText = price * quantity;
+}
+<h1>3. 총합 구하기2 (선택된 값만)</h1>
+<div>
+    바나나(1000원) <input type="checkbox" name="fruit" class="fruit" value="1000"><br>
+    사과(500원) <input type="checkbox" name="fruit" class="fruit" value="500"><br>
+    배(1500원) <input type="checkbox" name="fruit" class="fruit" value="1500"><br>
+    <button onclick="totalPrice()">총합구하기</button><br>
+    선택한 총가격:<span id="totalPrice"></span>
+</div>
+function totalPrice() {
+      var fruit = document.querySelectorAll('.fruit');
+    var total = 0;
+    for (var i = 0; i < fruit.length; i++) {
+      if (fruit[i].checked) {
+          total += parseInt(fruit[i].value);
+      }
+    }
+document.getElementById('totalPrice').innerText = total;
+}
+[김현오] [오후 2:40]  <table border="1">
+      <tr>
+        <th>우편번호</th>
+        <th>주소</th>
+      </tr>
+      <tr>
+        <td>
+          <a href="javascript:post('12345','서울시 강남구 XXX 아파트')"
+            >12345</a
+          >
+        </td>
+        <td>서울시 강남구 XXX 아파트</td>
+      </tr>
+      <tr>
+        <td>
+          <a href="javascript:post('99999','경기도 고양시 ZZZ 아파트')"
+            >99999</a
+          >
+        </td>
+        <td>경기도 고양시 ZZZ 아파트</td>
+      </tr>
+    </table>
+[김현오] [오후 4:03] <style>
+td {
+   text-align : right;
+   padding-left : 5px;
+   padding-right : 5px;
+}
+</style>
+[김현오] [오후 5:21] <body>
+    <dl class="accordion">
+        <dt><a href="#">웹이란?</a></dt>
+        <dd>웹은 'World Wide Web'의 약어로서 간단하게 WWW로 
+            표현한다. 웹이란 인터넷에 연결된 컴퓨터를 통해 전 
+            세계 사람들이 정보를 제공하고 공유할 수 있는 사이버 
+            공간을 의미한다.</dd>
+        
+        <dt><a href="#">웹 브라우저</a></dt>
+        <dd>웹 사이트에 구축된 웹 페이지, 즉 HTML 문서를 볼 
+            수 있는 응용 프로그램을 의미한다.인터넷 익스플로러, 
+            크롬, 사파리, 파이어폭스 등의 프로그램이 여기에 속한다.</dd>
+        
+        <dt><a href="#">웹 호스팅</a></dt>
+        <dd>인터넷 전문 업체에서 자신이 보유한 웹 서버와 
+            네트워크를 이용하여 개인 또는 기관에게 홈페이지를 
+            구축할 수 있도록 서버 상에 사용자 계정과 디스크 
+            공간을 임대해주는 서비스를 의미한다.</dd>
+    </dl>
+</body>  
+[김현오] [오후 5:26] <style>
+a {
+    text-decoration: none;
+}
+.accordion {
+    margin: 30px;
+}
+.accordion dt, .accordion dd  {
+    padding: 10px;
+    border: 1px solid #cccccc;
+}
+.accordion dt:last-of-type, .accordion dd:last-of-type {
+    border-bottom: 1px solid #cccccc;
+}
+.accordion dt a, .accordion dd a {
+    display: block;
+    color: black;
+    font-weight: bold;
+}
+.accordion dd {
+    border-top: 0;
+    font-size: 14px;
+    line-height: 150%;
+}
+</style>
+[김현오] [오후 5:26] 스타일 시트
+[김현오] [오후 5:34] <script>
+$(document).ready(function () {
+    var allPanels = $(".accordion > dd");
+    allPanels.hide();
+    
+    $(".accordion > dt > a").click(function() {
+      allPanels.slideUp();
+      $(this).parent().next().slideDown();
+    });
+});      
+</script>
+--------------- 2024년 5월 27일 월요일 ---------------
+[김현오] [오전 9:54] Ajax관련 메서드에서 get post 방식의 차이점
+
+Ajax에서 사용되는 GET과 POST 메서드는 서버와의 데이터 교환 방식에 있어 
+중요한 차이점을 가지고 있습니다. 각 메서드는
+ 데이터 전송 방식, 캐싱, 사용 상황 등에서 차별화되어 적절한 사용 
+시점을 고려해야 합니다.
+
+1. 데이터 전송 방식
+
+GET: URL에 데이터를 직접 포함하여 전송합니다. 
+주소창에 입력하면 파라미터를 확인할 수 있을 정도로 투명한 방식입니다.
+POST: 메시지 본문에 데이터를 포함하여 전송합니다. 
+URL에는 영향을 미치지 않으며, 보안성이 높습니다.
+2. 캐싱: 저장 
+
+GET: 브라우저는 GET 요청 결과를 캐싱하여 향후 동일한 요청 시 
+빠르게 응답할 수 있습니다. 
+하지만 캐싱으로 인해 최신 데이터를 반영하지 못할 수 있습니다.
+POST: POST 요청은 캐싱되지 않습니다. 항상 최신 데이터를 요청하고 응답합니다.
+3. 사용 상황
+
+GET:
+데이터 조회 (예: 뉴스 기사 목록, 상품 정보)
+서버에 영향을 미치지 않는 작업 (예: 검색, 필터링)
+보안성이 낮은 데이터 전송 (예: 사용자 이름, 검색어)
+POST:
+데이터 저장 또는 수정 (예: 회원 가입, 댓글 작성, 구매)
+서버에 영향을 미치는 작업 (예: 로그인, 결제)
+보안성이 높은 데이터 전송 (예: 비밀번호, 신용카드 정보)
+[김현오] [오전 11:43] ajax에서 회원 데이터를 html 불러와 바인딩 할때 
+XML로 하는 것과 Json 하는 것과의 차이
+
+Ajax에서 회원 데이터를 HTML 불러와 바인딩 할 때
+ XML과 JSON을 사용하는 방식에는 장단점이 있습니다.
+
+장점:
+
+구조화된 데이터 표현: XML은 태그와 속성을 
+사용하여 데이터를 구조적으로 표현하기 때문에 
+데이터의 의미와 관계를
+ 명확하게 전달하는 데 유용합니다.
+표준화: XML은 국제 표준으로 정의되어 
+다양한 프로그래밍 언어와 플랫폼에서 쉽게 처리할 수 있습니다.
+데이터 검증: XML 스키마를 사용하여 데이터의 
+유효성을 검증할 수 있어 데이터 오류를 방지하는 
+데 도움이 됩니다.
+단점:
+복잡성: XML은 JSON에 비해 문법이 더 복잡하고 
+코드가 길어져 가독성이 떨어질 수 있습니다.
+처리 속도: XML은 JSON보다 데이터 처리 
+속도가 느린 편입니다.
+JSON
+
+장점:
+
+간결성: JSON은 간결하고 명확한 문법으로 작성되어 
+코드 가독성이 높습니다.
+빠른 처리 속도: JSON은 XML보다 데이터 처리 속도가 빠릅니다.
+JavaScript와의 친화력: JSON은 
+JavaScript의 기본 데이터 구조와 유사하기 때문에 
+JavaScript에서 쉽게 처리할 수 있습니다.
+단점:
+
+구조 표현 부족: JSON은 XML과 달리 데이터 구조를 
+명확하게 표현하는 기능이 부족합니다.
+표준화 부족: JSON은 XML만큼 표준화되지 않아 
+일부 구현에서 호환성 문제가 발생할 수 있습니다.
+데이터 검증 어려움: JSON은 XML 스키마와 
+같은 데이터 검증 기능이 부족하여 데이터 오류 발생 가능성이 높습니다.
+선택 기준
+
+회원 데이터를 HTML 불러와 바인딩 할 때 XML과 JSON을 사용하는 방식은 다음과 같은 기준으로 선택하는 것이 좋습니다.
+
+데이터 구조의 중요성: 데이터 구조가 중요하고 
+명확하게 표현해야 하는 경우 XML을 사용하는 것이 좋습니다.
+처리 속도: 데이터 처리 속도가 중요한 경우 JSON을 사용하는 것이 좋습니다.
+개발자의 선호도: 개발자가 XML이나 JSON에 더 익숙하고 선호하는 경우 해당 방식을 사용하는 것이 좋습니다.
+기존 시스템과의 호환성: 기존 시스템에서 XML이나 JSON을 사용하고 있는 경우 호환성을 위해 동일한 방식을 사용하는 것이 좋습니다.
+[김현오] [오후 2:18] 파일: parent.html
+[김현오] [오후 2:18] 파일: child.html
+[김현오] [오후 2:31]  http://openapi.seoul.go.kr:8088/6d4d776b466c656533356a4b4b5872/json/RealtimeCityAir/1/99 
+[김현오] [오후 2:33] http://openapi.seoul.go.kr:8088/6d4d776b466c656533356a4b4b5872/json/RealtimeCityAir/1/99 
+[김현오] [오후 2:34] 미세먼지 openAPI  
+[김현오] [오후 2:39] <h1>jQuery+Ajax의 조합을 연습하자!</h1>
+
+    <hr />
+
+    <div class="question-box">
+        <h2>1. 서울시 OpenAPI(실시간 미세먼지 상태)를 이용하기</h2>
+        <p>모든 구의 미세먼지를 표기해주세요</p>
+        <p>업데이트 버튼을 누를 때마다 지웠다 새로 씌여져야 합니다.</p>
+        <button onclick="q1()">업데이트</button>
+        <ul id="names-q1">
+            <li>중구 : 82</li>
+            <li>종로구 : 87</li>
+            <li>용산구 : 84</li>
+            <li>은평구 : 82</li>
+        </ul>
+    </div>
+[김현오] [오후 2:41]   <script>
+        function q1() {
+            // 여기에 코드를 입력하세요
+        }
+    </script>
+[김현오] [오후 2:49] 사진
+[김현오] [오후 3:13] 사진
+[김현오] [오후 3:17] http://spartacodingclub.shop/sparta_api/seoulbike
+[김현오] [오후 3:17] 따릉이 서울시 오픈 API 주소
+[김현오] [오후 3:43] <h1>jQuery + Ajax의 조합을 연습하자!</h1>
+
+    <hr />
+
+    <div class="question-box">
+      <h2>2. 서울시 OpenAPI(실시간 따릉기 현황)를 이용하기</h2>
+      <p>모든 위치의 따릉이 현황을 보여주세요</p>
+      <p>업데이트 버튼을 누를 때마다 지웠다 새로 씌여져야 합니다.</p>
+      <button onclick="q1()">업데이트</button>
+      <table>
+        <thead>
+          <tr>
+            <td>거치대 위치</td>
+            <td>거치대 수</td>
+            <td>현재 거치된 따릉이 수</td>
+          </tr>
+        </thead>
+        <tbody id="names-q1"></tbody>
+      </table>
+    </div>
+  </body>
+[김현오] [오후 3:44] <style type="text/css">
+      div.question-box {
+        margin: 10px 0 20px 0;
+      }
+
+      table {
+        border: 1px solid;
+        border-collapse: collapse;
+      }
+
+      td,
+      th {
+        padding: 10px;
+        border: 1px solid;
+      }
+
+      .low {
+        color: red;
+        font-weight: bold;
+      }
+    </style>
+[김현오] [오후 3:44] <script>
+        function q1() {
+            $('#names-q1').empty();
+            $.ajax({
+                type: "GET",
+                url: "http://spartacodingclub.shop/sparta_api/seoulbike",
+                data: {},
+                success: function (response) {
+                    let rows = response['getStationList']['row']
+                    for (let i = 0; i < rows.length; i++) {
+                        let name = rows[i]['stationName'];
+                        let num_lot = rows[i]['rackTotCnt'];
+                        let num_parked = rows[i]['parkingBikeTotCnt'];
+
+                        let temp_html = ``
+
+                        if (num_parked < 4) {
+                            temp_html = `<tr>
+            <td>${name}</td>
+            <td>${num_lot}</td>
+            <td class="low">${num_parked}</td>
+        </tr>`
+                        } else {
+                            temp_html = `<tr>
+            <td>${name}</td>
+            <td>${num_lot}</td>
+            <td>${num_parked}</td>
+        </tr>`
+
+                        }
+                        $('#names-q1').append(temp_html)
+                    }
+                }
+
+            })
+        }
+    </script>
+[김현오] [오후 3:48] <!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery 연습하고 가기!</title>
+    <!-- JQuery를 import 합니다 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <style type="text/css">
+        div.question-box {
+            margin: 10px 0 20px 0;
+        }
+
+        table {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            padding: 10px;
+            border: 1px solid;
+        }
+
+        .low {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+
+    <script>
+        function q1() {
+            $('#names-q1').empty();
+            $.ajax({
+                type: "GET",
+                url: "http://spartacodingclub.shop/sparta_api/seoulbike",
+                data: {},
+                success: function (response) {
+                    let rows = response['getStationList']['row']
+                    for (let i = 0; i < rows.length; i++) {
+                        let name = rows[i]['stationName'];
+                        let num_lot = rows[i]['rackTotCnt'];
+                        let num_parked = rows[i]['parkingBikeTotCnt'];
+
+                        let temp_html = ``
+
+                        if (num_parked < 4) {
+                            temp_html = `<tr>
+            <td>${name}</td>
+            <td>${num_lot}</td>
+            <td class="low">${num_parked}</td>
+        </tr>`
+                        } else {
+                            temp_html = `<tr>
+            <td>${name}</td>
+            <td>${num_lot}</td>
+            <td>${num_parked}</td>
+        </tr>`
+
+                        }
+                        $('#names-q1').append(temp_html)
+                    }
+                }
+
+            })
+        }
+    </script>
+
+</head>
+
+<body>
+<h1>jQuery + Ajax의 조합을 연습하자!</h1>
+
+<hr/>
+
+<div class="question-box">
+    <h2>2. 서울시 OpenAPI(실시간 따릉기 현황)를 이용하기</h2>
+    <p>모든 위치의 따릉이 현황을 보여주세요</p>
+    <p>업데이트 버튼을 누를 때마다 지웠다 새로 씌여져야 합니다.</p>
+    <button onclick="q1()">업데이트</button>
+    <table>
+        <thead>
+        <tr>
+            <td>거치대 위치</td>
+            <td>거치대 수</td>
+            <td>현재 거치된 따릉이 수</td>
+        </tr>
+        </thead>
+        <tbody id="names-q1">
+        </tbody>
+    </table>
+</div>
+</body>
+
+</html>
+[김현오] [오후 5:14] 1. 조달청 웹페이지에 가서 
+https://www.pps.go.kr/kor/content.do?key=00149 
+조달청 RSS서비스 주소 받는 다.
+Q-test01.html 문서에서  ajax 를 이용하여 url 주소에  조달청 RSS 주소를 
+연결하면 동일 출처 윈칙에 따라 불러 오지 못한다.
+서버 언어(PHP)로 교차 도메인 데이터(XML) 불러와야 한다.
+Q-test01.php 에서 서버와 서버 끼리  서로 통신 할 수 있는 cURL 메서드를 지원하는
+PHP를 이용하여 Q-test01.php  문서를 작성한후 
+Q-test02.html 에서 위의 예제에서 가져온 데이터를 $ajax()메서드를 이용하여
+html 문서로 불러온 다음 문단 태그에 결합 하세요 
+참고 330page 에서 334page  참고 해서 하세요
+
+2.자바스크립트의 보안 정책 중 하나인 SOP(Same-Origin Policy) 때문에 데이터를 호출하는 
+도메인과 데이터를 반환하는 도메인의 주소가 다르면 ajax를 이용할 수가 없다. 
+그러나 (   )을 이용하면 간단히 해결 가능하다.
+빈칸에 내용을 채우세요
+3.Ajax 관련 메서드의 종류에서
+  $.post() 와 $.get() 공통점과 다른점을 서술 하세요
+
+4.Ajax 전송 데이터 가공 메서드의 종류중
+  serialize() 는 데이터를 어떤 형식의 데이터로 변환 해서
+반환 하는 가?
+
+5.Ajax로 JSON 데이터 바인딩 해서 html 문서로 불러오는 것과
+  Ajax로 XML 데이터 바인딩 해서 html 문서로 불러오는 것과
+어떤 차이가 있는 있는 지 두가지 이상의 내용을 적으세요 
+
+
+
+
+
+
+
+
+
+[장선호] [오후 5:15] 삭제된 메시지입니다.
+[박인규] [오후 5:22] 삭제된 메시지입니다.
+--------------- 2024년 5월 28일 화요일 ---------------
+[김현오] [오전 9:47] 사진
+[김현오] [오전 11:47] 파일: media.zip
+[김현오] [오후 12:27] 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>자바스크립트로 비디오 제어</title>
+</head>
+<body>
+<h3>자바스크립트로 비디오 제어</h3>
+<hr>
+<video id="video" width="320" height="240">
+   <source src="media/bear.mp4"  type="video/mp4">
+   웹 브라우저가 video 태그를 지원하지 않습니다.
+</video>
+<div id="msg">이곳에 비디오 제어 메시지 출력</div>
+<button id="play" onclick="control(event)">play</button>
+<button id="pause" onclick="control(event)">pause</button>
+<button id="replay" onclick="control(event)">replay</button>
+<button id="vol-" onclick="control(event)">vol-</button>
+<button id="vol+" onclick="control(event)">vol+</button>
+<button id="mute on/off" onclick="control(event)">mute on/off</button>
+<script>
+let divEmt = document.getElementById("msg");
+let video = document.getElementById("video");
+
+function control(e) {
+   if(e.target.id == "play") { // play 버튼 클릭
+      video.play(); // 재생
+      //divEmt.innerHTML = video.src + "를 재생중입니다.";
+      divEmt.innerHTML = getSource(video) + "를 재생중입니다.";
+   }
+   else if(e.target.id == "pause") { // pause 버튼 클릭
+      video.pause(); // 일시 중지
+      divEmt.innerHTML = "일시중지되었습니다.";
+   }
+   else if(e.target.id == "replay") { // replay 버튼 클릭
+      video.load(); // src에 지정된 미디어 다시 로딩
+      video.play(); // 처음부터 다시 재생
+      divEmt.innerHTML = getSource(video) + "를 처음부터 다시 재생합니다.";
+   }   
+   else if(e.target.id == "vol-") { // vol- 버튼 클릭
+      if(video.volume <= 0.1) video.volume = 0;
+      else video.volume -= 0.1; // 음량 0.1 감소
+      divEmt.innerHTML = "음량 0.1 감소." + "현재 " + video.volume;
+   }    
+   else if(e.target.id == "vol+") { // vol+ 버튼 클릭
+      if(video.volume >= 0.9) video.volume = 1.0;      
+      else video.volume += 0.1; // 음량 0.1 증가
+      divEmt.innerHTML = "음량 0.1 증가." + "현재 " + video.volume;;
+   }
+   else if(e.target.id == "mute on/off") { // mute on/off 버튼 클릭
+      video.muted = !video.muted; // 음소거 토글
+      if(video.muted) divEmt.innerHTML = "음소거";
+      else divEmt.innerHTML = "음소거 해제";
+   }   
+}
+
+// <video><source></video> 구조로 된 경우, 비디도 파일명을 가진 src 찾기
+function getSource(v) {
+   let child = v.firstElementChild;   
+   for(let i=0; i<v.childElementCount; i++) {
+      if(child.tagName == "SOURCE")
+         return child.src;
+      child = child.nextElementSibling;
+   }
+   return "";
+}
+</script>
+</body>
+</html>
+[김현오] [오후 12:36] 사진
+[김현오] [오후 12:36] 사진
+[김현오] [오후 12:36] 사진
+[김현오] [오후 12:36] 사진
+[김현오] [오후 12:36] 사진
+[김현오] [오후 12:37] 사진
+[김현오] [오후 1:02] 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+<script>
+$(document).ready(function () {
+    $(".flexslider").flexslider();
+});
+</script>
+</head>   
+<body>
+    <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <img src="img/slide1.jpg">
+          </li>
+          <li>
+            <img src="img/slide2.jpg">
+          </li>
+          <li>
+            <img src="img/slide3.jpg">
+          </li>
+        </ul>
+      </div>
+</body>  
+</html>
+[김현오] [오후 1:04] 파일: FlexSlider.zip
+[김현오] [오후 1:04] 파일: js.zip
+[김현오] [오후 1:05] 파일: flexslider.css
+[김현오] [오후 2:25] <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>다시할까요?</title>
+    <script>
+      let audio = null;
+
+      window.onload = init;
+
+      function init() {
+        audio = document.getElementById('audio');
+        audio.onended = function (e) {
+          let res = confirm('다시할까요?');
+          if (res == true) {
+            audio.play();
+          }
+        };
+      }
+    </script>
+  </head>
+  <body>
+    <h3>애국가 연주</h3>
+    <hr />
+    <audio id="audio" src="media/Aegukga.mp3" controls>
+      웹 브라우저가 audio 태그를 지원하지 않습니다.
+    </audio>
+  </body>
+</html>
+[김현오] [오후 2:43] 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>여행을 갑시다.</title>
+<script>
+function store(key, obj) {
+   if(!window.localStorage) { 
+      alert("지원하지 않습니다.");
+      return;
+   }
+   let city = obj.options[obj.selectedIndex].value;   
+   localStorage.setItem(key, city);
+}
+</script>
+<style>
+select {
+   margin-left : 20px;
+}
+div {
+   display : inline-block;
+   width : 150px;
+   border : 1px solid yellowgreen;
+   padding-left : 10px;
+   padding-bottom : 20px;
+}
+</style>
+</head>
+<body>
+<h3>여행 갑시다</h3>
+<hr>
+<form>
+<div>
+<p>도시를 선택하세요</p>
+<select size="3" onchange="store('city', this)">
+   <option value="파리">파리</option>
+   <option value="뉴욕">뉴욕</option>
+   <option value="런던">런던</option>
+</select>
+</div>
+<div>
+<p>음식을 선택하세요</p>
+<select size="3" onchange="store('food', this)">
+   <option value="햄버거">햄버거</option>
+   <option value="에스프레소 커피">에스프레소 커피</option>
+   <option value="치즈 게익">치즈 게익</option>
+</select>
+</div>
+</form>
+</body>
+</html>
+[김현오] [오후 2:44] 선택 파일
+[김현오] [오후 2:44] 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>선택한 도시와 음식 보여주기</title>
+<style>
+div {
+   display : inline-block;
+   width : 200px;
+   border : 1px solid yellowgreen;
+   padding-left : 10px;
+}
+</style>
+<script>
+window.addEventListener("storage", storageEventListener, false);
+window.onload = show;
+
+function storageEventListener(e) { // 웹 스토리지에 변화가 생길때 호출
+   show(); // 변화된 스토리지 출력
+}
+function show() {
+   if(!window.localStorage) { 
+      alert("지원하지 않습니다."); 
+      return;
+   }
+
+   let obj = document.getElementById("msg");
+   obj.innerHTML = "";
+   for(let i=0; i<localStorage.length; i++) {
+      let key = localStorage.key(i);
+      let val = localStorage.getItem(key);
+      if(i == localStorage.length-1)
+         obj.innerHTML += (key + "=" + val);
+      else
+         obj.innerHTML += (key + "=" + val) + "<br>"; 
+   }   
+}
+</script>
+</head>
+<body>
+<h3>선택한 도시와 음식 보여주기</h3>
+<hr>
+<div id="msg">
+아무것도 선택하지 않았습니다.
+</div>
+</body>
+</html>
+[김현오] [오후 2:44] 응답 파일
+[김현오] [오후 2:47] 사진 4장
+[김현오] [오후 2:47] 사진
+[김현오] [오후 2:47] 사진
+[김현오] [오후 2:47] 사진
+[김현오] [오후 2:47] 사진
+[김현오] [오후 3:00] 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>z-index 스타일 프로퍼티</title>
+<style>
+div { position : absolute; }
+img { position : absolute; }
+</style>
+</head>
+<body>
+<h3>z-index 스타일 프로퍼티</h3>
+<hr>
+<div>
+   <img src="media/spade-A.png" 
+      width="100" height="140" alt="스페이드A">
+   <img src="media/spade-2.png" 
+      width="100" height="140" alt="스페이드2">
+   <img src="media/spade-3.png" 
+      width="100" height="140" alt="스페이드3">
+   <img src="media/spade-7.png" 
+      width="100" height="140" alt="스페이드7">
+</div>
+<script>
+// z-index, left, top 모두 초기화
+let imgArray = document.getElementsByTagName("img");
+for(let i=0; i<imgArray.length; i++) {
+   let obj = imgArray[i];
+   obj.style.zIndex=i;
+   obj.style.left = "10px";
+   obj.style.top = "20px";
+   
+   obj.onclick = shuffle; // onclick 리스너 등록
+}
+function shuffle() {
+   for(let i=0; i<imgArray.length; i++) {
+      let obj = imgArray[i];
+      obj.style.zIndex++;
+      obj.style.zIndex %= imgArray.length; 
+   }   
+}
+</script>
+</body>
+</html>
+[김현오] [오후 3:33] 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="js/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() { 
+    $("#btn").click(function() {
+        $("h2").removeClass("pink");
+    });                 
+});
+</script>
+<style>
+.pink { 
+    background-color: pink;
+    color: white;
+}
+.green { 
+    background-color: green;
+    color: white;
+}
+</style>
+</head>   
+<body>
+    <h2 class="pink">제목 1</h2>
+    <p class="green">단락 1</p>
+
+    <h2 class="pink">제목 2</h2>
+    <p class="green">단락 2</p>
+    
+    <button id="btn">pink 클래스 삭제하기</button>
+</body>  
+</html>
+[김현오] [오후 5:12] 1.버튼을 누르면 웹페이지 배경색이 녹색이 되도록
+변경하시오.
+
+2.다음 테이블태그에서 짝수행 배경색이 orange색이
+되도록 하시오.
+<table border="1" width="50%">
+   <tr><td>이름</td><td>주소</td></tr>
+   <tr><td>홍길동</td><td>서울시</td></tr>
+   <tr><td>이순신</td><td>제주시</td></tr>
+   <tr><td>왕건</td><td>경기도</td></tr>
+</table>
+
+3.버튼을 누르면 다음 이미지에 그림자가 생기게
+하시오.
+아무 이미지라도 상관 없음 
+<img src="img/pic01.jpg">
+
+4.2번 테이블에서 첫번째 행의 배경색을 검은색,
+글자를 흰색으로 설정하시오.
+
+5.오전에 받은 겨울 풍경 그림을 bxSlider 이용해서  자동 슬라이드 갤러리구현 되게 하세요 
+
+6.오전에 받은 겨울 풍경 그림을 bxSlider 이용해서 섬네일 페이지 슬라이드 갤러리구현 되게 하세요 
+  섬메일 pager 영역을 포함해서 
+[김현오] [오후 5:42] <style> img {
+width: 300px;
+height: 300px;
+filter: drop-shadow(10px 6px 6px #c3c3c3); /*그림자*/
+}</style>
+--------------- 2024년 5월 29일 수요일 ---------------
+[김현오] [오후 12:06] 사진
+[김현오] [오후 12:26] <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #toc-content {
+        display: none;
+      }
+      #toc-toggle {
+        cursor: pointer;
+        color: #2962ff;
+      }
+      #toc-toggle:hover {
+        text-decoration: underline;
+      }
+    </style>
+    <script>
+      function openCloseToc() {
+        if (document.getElementById('toc-content').style.display === 'block') {
+          document.getElementById('toc-content').style.display = 'none';
+          document.getElementById('toc-toggle').textContent = '보이기';
+        } else {
+          document.getElementById('toc-content').style.display = 'block';
+          document.getElementById('toc-toggle').textContent = '숨기기';
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    목차 [<span id="toc-toggle" onclick="openCloseToc()">보이기</span>]
+    <ol id="toc-content">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ol>
+  </body>
+</html>
+[김현오] [오후 12:35] <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      var num1 =100,num2=200,num3=300;
+      var txt1 ="Hello,
+      txt2="javascript";
+      document.writ(num1+num2+num3,"<br>");
+      document.writ(txt1,"<br>");
+      document.write(txt2,"<br>");
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #toc-content {
+        display: none;
+      }
+      #toc-toggle {
+        cursor: pointer;
+        color: #2962ff;
+      }
+      #toc-toggle:hover {
+        text-decoration: underline;
+      }
+    </style>
+    <script>
+  function openCloseToc() {
+    if (document.getElementById('toc-content').style.display === 'block') {       // 'toc-content' 요소의 display 속성이 'block'인지 확인합니다.
+      document.getElementById('toc-content').style.display = 'none';              // display 속성이 'block'이면, 'none'으로 설정하여 숨깁니다.
+      document.getElementById('toc-toggle').textContent = '보이기';               // 'toc-toggle' 요소의 텍스트를 '보이기'로 변경합니다.
+    } else {
+      document.getElementById('toc-content').style.display = 'block';             // display 속성이 'block'이 아니면, 'block'으로 설정하여 보이게 합니다.
+      document.getElementById('toc-toggle').textContent = '숨기기';               // 'toc-toggle' 요소의 텍스트를 '숨기기'로 변경합니다.
+    }
+  }
+    </script>
+  </head>
+
+  <body>
+    목차 [<span id="toc-toggle" onclick="openCloseToc()">보이기</span>]
+    <ol id="toc-content">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ol>
+  </body>
+</html>
