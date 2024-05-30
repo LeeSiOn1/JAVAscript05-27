@@ -1,0 +1,241 @@
+  * {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: "맑은 고딕";
+  }
+  
+  html, body {
+    background-color: #ffffff;
+    color: #333333;
+    min-width: 1200px;
+  }
+
+  header { height: 100px; }
+
+  img { max-width: 100%;}
+
+  a { color:inherit; direction: none;}
+  
+  .all { width: 100%; float: left;}
+
+  .wrap { width: 1200px;}
+
+  #headerLogo1 {
+    padding: 10px;
+}
+
+.shopingmolLogo {
+    height: 80px;
+    overflow: hidden;
+    float: left;
+}
+
+.shopingmolLogo a img {
+    width: 200px;
+}
+                                      /*여기까지 해더 로고설정*/
+.clear {
+    clear: both;
+    position: inherit;
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+    width: 1200px;
+}
+
+.nav {
+    height: 30px;
+    width: 700px;
+    margin-top: 20px;
+}
+
+.nav > li {
+    float: left;
+    width: 150px;
+    text-align: center;
+    position: relative;
+    transition: all 1s;
+    padding: 10px 0;
+}
+
+.nav > li:after {
+    clear: both;
+}
+
+.nav > li:hover {
+    background-color: blue;
+    color: skyblue;
+}
+
+.subMenu {
+    display: none;
+    z-index: 1;
+    background-color: #123456;
+    position: absolute;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.nav > li:hover .subMenu {
+    display: block;
+}
+
+.subMenu > li {
+    padding: 10px 0;
+    transition: all 1s;
+    color: #FFFFFF;
+}
+
+.subMenu > li:hover {
+    background-color: #178aad;
+    color: inherit;
+}
+                                              /*여기까지가 상단*/
+  .slides {
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+  }
+  .slideWrap {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .slideImg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .slideImg h2 {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    padding: 10px 20px;
+  
+  }
+                                            /*여기까지 슬라이드 css설정*/
+  #contents {
+    height: 200px;
+  }
+
+  .note {
+    width: 400px;
+    margin-top: 15px;
+    float: left;
+  }
+
+  .note h2 {
+    color: black;
+    background-color: gray;
+    float: left;;
+    padding-bottom: 10px;
+    font-size: 25px;
+  }
+
+  .note .gallery2 {
+    padding-left: 30px;
+  }
+
+  .note > h2:hover {
+    background-color: white;
+  } 
+
+  .table1 {
+    border-collapse: collapse;
+    font-size: 15px;
+    color: #666666;
+    width: 400px;
+    float: left;
+  }
+
+  #titleLeft {
+    padding-left: 0px;
+  }
+
+  tr > #titleRight {
+    text-align: center;
+  }
+                                    /*여기까지 왼쪽 공지사항, 갤러리*/
+  .card1 {
+    width: 400px;
+    background-color: skyblue;
+    height: 200px;
+  }
+
+  .card1 > img {
+    padding-left: 140px;
+    margin-top: 10px;  
+  }
+  
+  .card1 > h4 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .card1 > p {
+    font-size:12px;
+    text-align: center;
+  }
+                            /*여기까지 중단 카드할인 서비스*/
+  .prices1 {
+    width: 400px;
+    height: 200px;
+    float: right;
+  }
+  
+  .prices1 > img {
+    height: 200px;
+    width: 400px;
+  }
+  .money  {
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  text-align: center;
+  line-height: 100px;
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 20px;
+  left: 50%;
+  top: 50%;
+}
+                                /*여기까지 컨텐츠 마지막*/
+
+  footer {
+    height: 100px;
+    width: 1200px;
+    background-color: black;
+    color:white;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+
+
+
+  footer ul {
+    width: 50%;
+    float: right;
+    
+
+}
+
+footer ul > li {
+    display: block;
+    float: right;
+    margin-left: 20px;
+    margin-top: 10px
+}
+
+
+
+    
+
+
+
+
+
